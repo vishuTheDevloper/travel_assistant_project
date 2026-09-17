@@ -5,6 +5,11 @@ A Singapore travel assistant built with **LangChain, local RAG, a custom MCP ser
 ## Git Hub Repo link below
 https://github.com/vishuTheDevloper/travel_assistant_project
 
+
+# Demo Video 
+## How to setup and Demo:-
+https://drive.google.com/file/d/1cFNVxMxsxfecfQ9JOFTuuSTNdmVBdxRz/view?usp=sharing
+
 ## Start the project
 
 Use **Windows Command Prompt**. In VS Code, open the project folder containing `app.py`, then choose **Terminal > New Terminal > Command Prompt**. All commands below run from that folder. In a separate Command Prompt, use `cd /d "C:\path\to\travel_assistant_project"`, replacing the example with your actual folder path.
