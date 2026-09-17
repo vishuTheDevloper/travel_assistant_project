@@ -1,0 +1,823 @@
+{
+  "created_at_utc": "2026-09-14T09:19:14.418876+00:00",
+  "index_fingerprint": "371cafedd4027ecbe91b5763aaeddca10dafc9c4ff2bdbf1897b0cebe42c87d2",
+  "retrieval_method": "cosine_similarity_search",
+  "k": 4,
+  "score_interpretation": "Cosine distance: lower is closer; not a confidence percentage.",
+  "relevance_review_status": "pending_human_review",
+  "generated_answers": false,
+  "test_cases": [
+    {
+      "topic": "Major attractions and neighbourhoods",
+      "question": "Which neighbourhoods in Singapore can I explore for culture and sightseeing?",
+      "review_for": "Named Singapore neighbourhoods and descriptions of their sights or cultural experiences.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: See\n\nSights in Singapore are covered in more detail under the various districts. Broadly speaking:  \n- Beaches and tourist resorts : Head to one of the three beaches on Sentosa or its southern islands. Other beaches can be found on the East Coast .  \n- Culture and cuisine : See Chinatown for Chinese treats, Little India for Indian flavours, Geylang Serai for a Malay experience or the East Coast for Eurasian and Peranakan culture and delicious seafood, including the famous chilli and black pepper crab.  \n- History and museums : The Bras Basah area east of Orchard and north of the Singapore River is Singapore's colonial core, with historical buildings and museums. All government-run museums in Singapore are free admission for Singapore citizens and permanent residents except for temporary exhibits, but visitors will be charged an admission fee.",
+          "metadata": {
+            "chunking_version": "1",
+            "heading_2": "See",
+            "destination": "Singapore",
+            "section_index": 40,
+            "chunk_index": 101,
+            "section_path": "See",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "chunk_id": "singapore_wikivoyage-040-000-4a0f4acf1aed",
+            "piece_index": 0,
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_id": "singapore_wikivoyage",
+            "character_count": 886,
+            "accessed_on": "2026-09-14"
+          },
+          "cosine_distance": 0.2839773893356323
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Chinatown\n\nEmbrace Chinese heritage through bustling streets, vibrant culture and delectable cuisine in Chinatown.",
+          "metadata": {
+            "section_path": "Chinatown",
+            "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "character_count": 146,
+            "destination": "Singapore",
+            "section_index": 16,
+            "heading_2": "Chinatown",
+            "title": "Things To Do & Must-Visit Places in Singapore",
+            "piece_index": 0,
+            "accessed_on": "2026-09-14",
+            "source_id": "singapore_things_to_do",
+            "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+            "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "local_path": "data/raw/singapore_things_to_do.html",
+            "chunk_id": "singapore_things_to_do-016-000-fe67d0f0a80b",
+            "chunking_version": "1",
+            "chunk_index": 16
+          },
+          "cosine_distance": 0.2890918254852295
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Do > Culture\n\nOn the cultural side of things, Singapore has been trying to shake off its boring, buttoned-down reputation and attract more artists and performances. The star in Singapore's cultural sky is the Esplanade theatre in Marina Bay , a world-class facility for performing arts and a frequent stage for the Singapore Symphony Orchestra . For traditional Chinese music, its counterpart is the Singapore Chinese Orchestra .",
+          "metadata": {
+            "source_id": "singapore_wikivoyage",
+            "section_index": 43,
+            "chunk_index": 107,
+            "accessed_on": "2026-09-14",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_2": "Do",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "character_count": 461,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_3": "Culture",
+            "chunking_version": "1",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_path": "Do > Culture",
+            "chunk_id": "singapore_wikivoyage-043-000-9951c795c153",
+            "destination": "Singapore",
+            "piece_index": 0
+          },
+          "cosine_distance": 0.29039180278778076
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Katong-Joo Chiat\n\nDiscover the enchanting blend of Peranakan heritage, charming streets, and boutiques in the Katong-Joo Chiat neighborhood.",
+          "metadata": {
+            "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "title": "Things To Do & Must-Visit Places in Singapore",
+            "destination": "Singapore",
+            "character_count": 172,
+            "heading_2": "Katong-Joo Chiat",
+            "chunk_id": "singapore_things_to_do-038-000-801c4064b4a3",
+            "source_id": "singapore_things_to_do",
+            "accessed_on": "2026-09-14",
+            "section_index": 38,
+            "local_path": "data/raw/singapore_things_to_do.html",
+            "section_path": "Katong-Joo Chiat",
+            "piece_index": 0,
+            "chunking_version": "1",
+            "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+            "chunk_index": 38
+          },
+          "cosine_distance": 0.3002920150756836
+        }
+      ]
+    },
+    {
+      "topic": "Local transportation",
+      "question": "How can I get around Singapore using the MRT and buses?",
+      "review_for": "Useful information about Singapore's MRT or bus services.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Public Transport\n\nSingapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore.",
+          "metadata": {
+            "destination": "Singapore",
+            "chunking_version": "1",
+            "title": "Singapore Travel Guide & Tips | Travel Essentials",
+            "chunk_id": "singapore_essential_information-016-000-b86667c10c7e",
+            "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "source": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "heading_2": "Public Transport",
+            "character_count": 375,
+            "local_path": "data/raw/singapore_essential_information.html",
+            "source_id": "singapore_essential_information",
+            "source_sha256": "a73d75b42a23973d2c634eb6a1b6b299ef0e2d934e469eac28e8efa78f616319",
+            "chunk_index": 16,
+            "piece_index": 0,
+            "section_index": 16,
+            "accessed_on": "2026-09-14",
+            "section_path": "Public Transport"
+          },
+          "cosine_distance": 0.17743456363677979
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Mass Rapid Transit Map\n\nFor convenient navigation throughout the city, you may download the MyTransport App ( App Store / Play Store ) for public transport routes and timings. You may also download the Singapore MRT map, which offers a comprehensive overview of the MRT system.",
+          "metadata": {
+            "chunk_id": "singapore_essential_information-019-000-2c801c0458bf",
+            "local_path": "data/raw/singapore_essential_information.html",
+            "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "title": "Singapore Travel Guide & Tips | Travel Essentials",
+            "source_sha256": "a73d75b42a23973d2c634eb6a1b6b299ef0e2d934e469eac28e8efa78f616319",
+            "character_count": 309,
+            "section_index": 19,
+            "destination": "Singapore",
+            "section_path": "Mass Rapid Transit Map",
+            "source_id": "singapore_essential_information",
+            "source": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "piece_index": 0,
+            "accessed_on": "2026-09-14",
+            "heading_2": "Mass Rapid Transit Map",
+            "chunking_version": "1",
+            "chunk_index": 19
+          },
+          "cosine_distance": 0.18083840608596802
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Get around > By bus\n\nBuses connect various corners of Singapore, but are slower and harder to use than the MRT. On a long-distance bus, frequent stops and slow speeds may mean your journey could take two to three times as long as the same trip via MRT. Their main advantage is you get to see the sights rather than a dark underground tunnel, partly if you can snag a front seat on a double-decker, which make up a relatively huge percentage of buses in Singapore. Moreover, since there are a lot more bus stops than MRT stations, buses can often get you closer to your destination, which makes a big difference in the equatorial heat and humidity. All public buses in Singapore are air conditioned and wheelchair accessible.",
+          "metadata": {
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_index": 34,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "character_count": 756,
+            "heading_3": "By bus",
+            "source_id": "singapore_wikivoyage",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "section_path": "Get around > By bus",
+            "chunking_version": "1",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "heading_2": "Get around",
+            "accessed_on": "2026-09-14",
+            "piece_index": 0,
+            "chunk_index": 86,
+            "destination": "Singapore",
+            "chunk_id": "singapore_wikivoyage-034-000-5ab9459611ed"
+          },
+          "cosine_distance": 0.18144553899765015
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Getting Around by Bus\n\nPublic buses in Singapore are an affordable way to travel and see Singapore’s sights. Operating from as early as 5:30am until around 12:30 midnight, they offer extensive coverage across the island, making it easy to reach both popular attractions and hidden spots. You may check bus timetables, routes, and maps on the MyTransport App ( App Store / Play Store ) to plan your journey.",
+          "metadata": {
+            "source": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "source_sha256": "a73d75b42a23973d2c634eb6a1b6b299ef0e2d934e469eac28e8efa78f616319",
+            "section_path": "Getting Around by Bus",
+            "chunking_version": "1",
+            "chunk_id": "singapore_essential_information-020-000-5da5df88410d",
+            "source_id": "singapore_essential_information",
+            "destination": "Singapore",
+            "accessed_on": "2026-09-14",
+            "chunk_index": 20,
+            "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+            "character_count": 438,
+            "local_path": "data/raw/singapore_essential_information.html",
+            "section_index": 20,
+            "piece_index": 0,
+            "heading_2": "Getting Around by Bus",
+            "title": "Singapore Travel Guide & Tips | Travel Essentials"
+          },
+          "cosine_distance": 0.23391205072402954
+        }
+      ]
+    },
+    {
+      "topic": "Cultural and practical travel tips",
+      "question": "What should visitors know about dress and shoes when visiting temples in Singapore?",
+      "review_for": "Visitor etiquette concerning clothing or removing shoes at places of worship.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Respect > Visiting homes\n\nIf invited to somebody's house, always remove your shoes before you enter as most Singaporeans do not wear their shoes at home. Socks are perfectly acceptable though. Some households may provide slippers in the bathroom, but these are generally not meant to be worn anywhere else.  \nBeware of taboos if bringing gifts. Any products (food or otherwise) involving animals may cause offence and are best avoided, as are white flowers (usually reserved for funerals). Knives and clocks are also symbols of cutting ties and death, respectively, and some Chinese are superstitious about the number four. Many Singaporean Muslims and some Hindus abstain from alcohol. Nicely packaged cookies or cakes are a safe bet, as is a bouquet of flowers from a local florist.  \nIn Singapore, it is considered rude to open a gift in front of the person who gave it to you. Instead, wait until the person has left and open it in private.",
+          "metadata": {
+            "source_id": "singapore_wikivoyage",
+            "accessed_on": "2026-09-14",
+            "chunk_index": 256,
+            "heading_2": "Respect",
+            "section_path": "Respect > Visiting homes",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "piece_index": 0,
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "chunking_version": "1",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_id": "singapore_wikivoyage-097-000-c8e95883274f",
+            "section_index": 97,
+            "heading_3": "Visiting homes",
+            "destination": "Singapore",
+            "character_count": 976,
+            "title": "Singapore – Travel guide at Wikivoyage"
+          },
+          "cosine_distance": 0.21800470352172852
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Respect\n\nThat said, Singaporeans tend to be more socially conservative than Westerners, meaning that public display of affection is still frowned upon: holding hands is fine, but making out in public is considered to be impolite. Toplessness for women is not acceptable anywhere, even on the beach. Most places of worship require visitors to be conservatively dressed - no bare shoulders or midriff, and no shorts or skirts above the knee-cap. The major touristy places of worship will have shawls and sarongs so visitors can cover up before entering. Many places of worship also require you to remove your shoes before you enter.  \nThe local dialect with its heavy Chinese influences may appear brusque or even rude, but saying \"You want beer or not?\" is in fact more polite in Chinese than asking if you want beer; after all, the person asking you the question is offering you a choice, not making a demand.",
+          "metadata": {
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_index": 95,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_index": 250,
+            "section_path": "Respect",
+            "accessed_on": "2026-09-14",
+            "heading_2": "Respect",
+            "source_id": "singapore_wikivoyage",
+            "chunk_id": "singapore_wikivoyage-095-001-6b135ca9bb4a",
+            "character_count": 941,
+            "destination": "Singapore",
+            "chunking_version": "1",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "piece_index": 1,
+            "title": "Singapore – Travel guide at Wikivoyage"
+          },
+          "cosine_distance": 0.22299724817276
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Cope > Weather\n\n- Cotton or dri-fit shirts - Wear comfortable shirts that can let the air flow through.  \n- Slippers - Singaporeans love to wear slippers (called \"flip-flops\" in the United States, \"thongs\" in Australia or \"jandals\" in New Zealand). Be sure to carry a pair, just to blend in. Try sandals if you're not used to flip flops, but beware that in some formal establishments (e.g. the theatre, concert hall, and recital studio at the Esplanade), no flip flops, sandals, or shorts are allowed.  \n- Sweater - In cinemas, shopping malls, and museums, air conditioning can be relatively colder than expected, though this is likely to be a welcome relief from the heat.",
+          "metadata": {
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_id": "singapore_wikivoyage",
+            "chunk_index": 295,
+            "accessed_on": "2026-09-14",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "character_count": 705,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "heading_2": "Cope",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "destination": "Singapore",
+            "heading_3": "Weather",
+            "section_index": 110,
+            "chunk_id": "singapore_wikivoyage-110-001-5d6a1055937c",
+            "chunking_version": "1",
+            "piece_index": 1,
+            "section_path": "Cope > Weather"
+          },
+          "cosine_distance": 0.24591326713562012
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Respect\n\nTake dietary restrictions into account when inviting Singaporean friends for a meal. Many Indians and some Chinese are vegetarian. Most Malays, being Muslims, eat only halal food, while most Hindus (and a few Chinese) abstain from beef. If unsure, ask beforehand.  \nWhen visiting Chinese temples, do not point at the statues of deities with your index finger, as this is considered to be very rude. Use your thumb or an up-facing open palm instead. If you want to watch a street performance during the Hungry Ghost Festival, do not sit in the first row as it is traditionally reserved for the spirits of the deceased.  \nSwastikas are commonly seen in Buddhist and Hindu temples and altars. This is an ancient religious symbol that has nothing to do with Nazism.",
+          "metadata": {
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_2": "Respect",
+            "character_count": 802,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_index": 251,
+            "section_path": "Respect",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "chunking_version": "1",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "piece_index": 2,
+            "chunk_id": "singapore_wikivoyage-095-002-665897f09ff4",
+            "source_id": "singapore_wikivoyage",
+            "section_index": 95,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "destination": "Singapore",
+            "accessed_on": "2026-09-14"
+          },
+          "cosine_distance": 0.2628861665725708
+        }
+      ]
+    },
+    {
+      "topic": "Food and local experiences",
+      "question": "Which local dishes should I try at Singapore hawker centres?",
+      "review_for": "Named local dishes or information about eating at hawker centres.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Eat > Hawker centres\n\nThe cheapest and most popular places to eat in Singapore are hawker centres , essentially former pushcart vendors directed into giant complexes by government fiat. Prices are low ($4–6 for most dishes), hygiene standards are high (every stall is required to prominently display a hygiene certificate grading it from A to D) and the food can be excellent. Ambience tends to be a little lacking though and there is no air-conditioning either, but a visit to a hawker centre is a must when in Singapore, if you wish to experience authentic local food culture in the heartlands themselves. However, be leery of overzealous pushers-cum-salesmen, especially at the Satay Club in Lau Pa Sat and Newton Food Centre at Newton Circus: the tastiest stalls don't need high-pressure tactics to find customers. Touting for business is illegal, and occasionally a reminder of this can result in people backing off a bit",
+          "metadata": {
+            "destination": "Singapore",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "section_index": 65,
+            "section_path": "Eat > Hawker centres",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "source_id": "singapore_wikivoyage",
+            "heading_2": "Eat",
+            "chunking_version": "1",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "character_count": 958,
+            "heading_3": "Hawker centres",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "accessed_on": "2026-09-14",
+            "chunk_index": 169,
+            "piece_index": 0,
+            "chunk_id": "singapore_wikivoyage-065-000-dc05207077a1"
+          },
+          "cosine_distance": 0.17838811874389648
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Eat > Hawker centres\n\nHawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions:  \n- \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away.",
+          "metadata": {
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "character_count": 774,
+            "section_path": "Eat > Hawker centres",
+            "chunking_version": "1",
+            "accessed_on": "2026-09-14",
+            "source_id": "singapore_wikivoyage",
+            "destination": "Singapore",
+            "chunk_index": 171,
+            "chunk_id": "singapore_wikivoyage-065-002-84346ebec82e",
+            "piece_index": 2,
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_2": "Eat",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "heading_3": "Hawker centres",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "section_index": 65
+          },
+          "cosine_distance": 0.2137719988822937
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Lau Pa Sat\n\nThis historic hawker centre will take you on a gastronomic adventure of diverse flavours and vibrant atmosphere.",
+          "metadata": {
+            "heading_2": "Lau Pa Sat",
+            "destination": "Singapore",
+            "section_index": 43,
+            "section_path": "Lau Pa Sat",
+            "piece_index": 0,
+            "chunking_version": "1",
+            "character_count": 156,
+            "local_path": "data/raw/singapore_things_to_do.html",
+            "chunk_index": 43,
+            "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "chunk_id": "singapore_things_to_do-043-000-1893dc7117b2",
+            "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "source_id": "singapore_things_to_do",
+            "accessed_on": "2026-09-14",
+            "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+            "title": "Things To Do & Must-Visit Places in Singapore"
+          },
+          "cosine_distance": 0.22889363765716553
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Eat > Hawker centres\n\n. Good examples closer to the city centre include Old Airport Road Food Centre (near Dakota MRT Exit B) and Tiong Bahru Market (near Tiong Bahru MRT), both of which are sprawling and home to a number of much-loved stalls.",
+          "metadata": {
+            "section_index": 65,
+            "heading_3": "Hawker centres",
+            "section_path": "Eat > Hawker centres",
+            "destination": "Singapore",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "source_id": "singapore_wikivoyage",
+            "accessed_on": "2026-09-14",
+            "chunking_version": "1",
+            "heading_2": "Eat",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "piece_index": 6,
+            "chunk_index": 175,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "chunk_id": "singapore_wikivoyage-065-006-1c547ae8bcd6",
+            "character_count": 275
+          },
+          "cosine_distance": 0.23325800895690918
+        }
+      ]
+    },
+    {
+      "topic": "Sample itineraries",
+      "question": "What could I do in the morning and evening on my first day in Singapore?",
+      "review_for": "An itinerary with identifiable activities and their day or time-of-day context.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Top Things To Do\n\nThe best things to do in Singapore, curated for first timers and repeat visitors alike. Discover iconic attractions, must-visit places and unique experiences across the city, from famous sights to memorable activities for every kind of traveller.",
+          "metadata": {
+            "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "piece_index": 0,
+            "character_count": 296,
+            "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+            "chunk_id": "singapore_things_to_do-000-000-f085811d865f",
+            "chunk_index": 0,
+            "section_index": 0,
+            "destination": "Singapore",
+            "local_path": "data/raw/singapore_things_to_do.html",
+            "section_path": "Top Things To Do",
+            "title": "Things To Do & Must-Visit Places in Singapore",
+            "chunking_version": "1",
+            "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "accessed_on": "2026-09-14",
+            "source_id": "singapore_things_to_do",
+            "heading_2": "Top Things To Do"
+          },
+          "cosine_distance": 0.29199695587158203
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Day 4: Animals Galore > Evening > Evening in the Wild\n\nDig into a four-course dinner in Singapore's largest Tipi Tent and embark on a tram ride to discover the mysterious creatures of the night.",
+          "metadata": {
+            "source_id": "singapore_4_day_itinerary",
+            "heading_4": "Evening in the Wild",
+            "url": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "character_count": 226,
+            "chunking_version": "1",
+            "source": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "accessed_on": "2026-09-14",
+            "chunk_id": "singapore_4_day_itinerary-032-000-e34655c41f9f",
+            "local_path": "data/raw/singapore_4_day_itinerary.html",
+            "destination": "Singapore",
+            "section_path": "Day 4: Animals Galore > Evening > Evening in the Wild",
+            "chunk_index": 32,
+            "source_sha256": "38b583952014c937648d2ce255e375196ccb0fcf72549eaba302c39cf880e725",
+            "heading_3": "Evening",
+            "heading_2": "Day 4: Animals Galore",
+            "title": "Explore Singapore in 4 Days: Ultimate Itinerary & Tours!",
+            "piece_index": 0,
+            "section_index": 32
+          },
+          "cosine_distance": 0.3190488815307617
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Cope > Weather\n\nIf you are travelling to Singapore, be sure to carry the following:  \n- Sunglasses - Singapore is usually bright and sunny.  \n- Umbrella - Be sure to carry an umbrella in your luggage, as there is some precipitation throughout the year. However, the rain usually does not last long.  \n- Sun block/sun screen - If you plan to go out during the day, it is advisable to apply sun block as it is mostly sunny throughout the year. The ultraviolet index (UVI) is usually very high in the afternoon when it is sunny. Please see NEA's website on ultraviolet index for more information.  \n- Shorts/Half Pants - Singapore can get real warm. Although air-conditioning is available in all public transports and almost all internal areas, it is advisable to carry some light clothing. Some places of worship may require visitors to dress conservatively.  \n- Cotton or dri-fit shirts - Wear comfortable shirts that can let the air flow through.",
+          "metadata": {
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_2": "Cope",
+            "section_index": 110,
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "destination": "Singapore",
+            "accessed_on": "2026-09-14",
+            "character_count": 978,
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "piece_index": 0,
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "chunk_index": 294,
+            "heading_3": "Weather",
+            "source_id": "singapore_wikivoyage",
+            "chunking_version": "1",
+            "section_path": "Cope > Weather",
+            "chunk_id": "singapore_wikivoyage-110-000-f1a480119c28",
+            "title": "Singapore – Travel guide at Wikivoyage"
+          },
+          "cosine_distance": 0.32139354944229126
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Day 1: Explore the City > Morning > Kampong Gelam\n\nStart your day with breakfast at this conserved area, where Malay royalty once resided, and is steeped in rich culture and history.",
+          "metadata": {
+            "title": "Explore Singapore in 4 Days: Ultimate Itinerary & Tours!",
+            "source": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "heading_4": "Kampong Gelam",
+            "local_path": "data/raw/singapore_4_day_itinerary.html",
+            "character_count": 214,
+            "source_sha256": "38b583952014c937648d2ce255e375196ccb0fcf72549eaba302c39cf880e725",
+            "chunking_version": "1",
+            "section_index": 1,
+            "url": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "chunk_index": 1,
+            "accessed_on": "2026-09-14",
+            "source_id": "singapore_4_day_itinerary",
+            "destination": "Singapore",
+            "heading_3": "Morning",
+            "piece_index": 0,
+            "section_path": "Day 1: Explore the City > Morning > Kampong Gelam",
+            "heading_2": "Day 1: Explore the City",
+            "chunk_id": "singapore_4_day_itinerary-001-000-3ad0089b3538"
+          },
+          "cosine_distance": 0.32513511180877686
+        }
+      ]
+    },
+    {
+      "topic": "Indoor activity suggestions",
+      "question": "What indoor attractions in Singapore can I visit on a rainy day?",
+      "review_for": "Activities explicitly described as indoors or sheltered; do not assume a whole attraction is indoors.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Do > Swimming\n\nThe Singapore Sports Council maintains a list of pools , most of which are part of a larger sports complex with a gym, running track, tennis courts etc., and are near the MRT station they're named after. Perhaps the best is in Katong (111 Wilkinson Road, on the East Coast ): after the swim, stroll through the villa neighbourhood directly in front of the pool entrance and have a look at the luxurious, original architecture of the houses that really rich Singaporeans live in. If you get bored with regular swimming pools, head to the Jurong East Swimming Complex where you get the wave pool, water slides and Jacuzzi at an insanely affordable entrance fee of $1.50 on weekdays and $2 on weekends. For those who feel richer, visit the Wild Wild Wet water theme park or the Adventure Cove Waterpark and get yourself wet with various exciting water slides and tidal wave pools.",
+          "metadata": {
+            "chunk_index": 118,
+            "source_id": "singapore_wikivoyage",
+            "section_path": "Do > Swimming",
+            "piece_index": 1,
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_3": "Swimming",
+            "chunking_version": "1",
+            "heading_2": "Do",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "chunk_id": "singapore_wikivoyage-048-001-ded34fb424aa",
+            "section_index": 48,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "character_count": 924,
+            "destination": "Singapore",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "accessed_on": "2026-09-14"
+          },
+          "cosine_distance": 0.32475745677948
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Do > Snow sports\n\nBeing just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors.  \nIce skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang .",
+          "metadata": {
+            "chunk_id": "singapore_wikivoyage-050-000-9a4c8f9f66f6",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "character_count": 512,
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "section_path": "Do > Snow sports",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_id": "singapore_wikivoyage",
+            "section_index": 50,
+            "destination": "Singapore",
+            "piece_index": 0,
+            "chunking_version": "1",
+            "chunk_index": 121,
+            "accessed_on": "2026-09-14",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "heading_2": "Do",
+            "heading_3": "Snow sports"
+          },
+          "cosine_distance": 0.3311800956726074
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Get around > On foot\n\nAn unavoidable downside, though, is the tropical heat and humidity , which leaves many visitors sweaty and exhausted, so do as the locals do and bring along a little towel, a bottle of water and even an umbrella to protect against the searing heat. Also, afternoon thunderstorms are fairly common during the monsoon season. It's best to get an early start, pop into air-conditioned shops, cafes and museums to cool off or take shelter from rain, and plan on heading back to the shopping mall or hotel pool before noon. Alternatively, after sundown, evenings can also be comparatively cool. On the upside, the fact that the sun is often covered in clouds and shaded by trees and greenery along roads means that you won't get as easily sunburnt as otherwise at these latitudes",
+          "metadata": {
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "section_path": "Get around > On foot",
+            "source_id": "singapore_wikivoyage",
+            "piece_index": 1,
+            "chunking_version": "1",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "chunk_index": 98,
+            "chunk_id": "singapore_wikivoyage-039-001-28d9cb06d00b",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "accessed_on": "2026-09-14",
+            "character_count": 828,
+            "heading_2": "Get around",
+            "section_index": 39,
+            "destination": "Singapore",
+            "heading_3": "On foot",
+            "url": "https://en.wikivoyage.org/wiki/Singapore"
+          },
+          "cosine_distance": 0.33959680795669556
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Do > Water sports\n\nCanoeing and dragon-boating are popular water-sports in Singapore, and there are many beautiful reservoirs and rivers where one can partake in such physical activity. Check out the MacRitchie Reservoir, Kallang River and Marina Bay for reasonably priced options. Besides these more regular water sports, Singapore also offers water sports fans trendy activities such as cable-Skiing and wave surfing in specially created environments.",
+          "metadata": {
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_index": 49,
+            "piece_index": 0,
+            "source_id": "singapore_wikivoyage",
+            "heading_2": "Do",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "chunking_version": "1",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "accessed_on": "2026-09-14",
+            "section_path": "Do > Water sports",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_index": 120,
+            "destination": "Singapore",
+            "character_count": 485,
+            "heading_3": "Water sports",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "chunk_id": "singapore_wikivoyage-049-000-4e7597525818"
+          },
+          "cosine_distance": 0.3447544574737549
+        }
+      ]
+    },
+    {
+      "topic": "Outdoor activity suggestions",
+      "question": "Where can I enjoy nature walks or cycling outdoors in Singapore?",
+      "review_for": "Named parks, nature areas, walks, or cycling experiences.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Get around > By bicycle\n\nAlthough Singapore is mostly flat and there're only a few locations to climb, commuting on bicycle is challenging. There are few dedicated bicycle lanes on public roads, and road courtesy towards cyclists from motorists is sorely lacking. You may cycle on the road, cycling paths, shared use paths, and footpaths, with each having its own challenges.  \nBikes are permitted on public roads, provided you wear a helmet, and your bike is equipped with front white and rear red lights when cycling at night. You must keep to the left most lane. Bike lanes are only found on Tanah Merah Coastal Road and West Camp Road. There is no speed limit for bicycles on the roads. Bicycles are prohibited from expressways, road tunnels and the Tuas Viaduct.",
+          "metadata": {
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "heading_3": "By bicycle",
+            "chunking_version": "1",
+            "chunk_index": 94,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "piece_index": 0,
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_index": 38,
+            "chunk_id": "singapore_wikivoyage-038-000-2adbcd739f0e",
+            "heading_2": "Get around",
+            "character_count": 799,
+            "source_id": "singapore_wikivoyage",
+            "section_path": "Get around > By bicycle",
+            "accessed_on": "2026-09-14",
+            "destination": "Singapore"
+          },
+          "cosine_distance": 0.2686328887939453
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Intertidal Trails at Changi\n\nUncover marine wonders and coastal serenity through the intertidal trails at Changi.",
+          "metadata": {
+            "source_id": "singapore_things_to_do",
+            "title": "Things To Do & Must-Visit Places in Singapore",
+            "piece_index": 0,
+            "heading_2": "Intertidal Trails at Changi",
+            "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "section_index": 35,
+            "local_path": "data/raw/singapore_things_to_do.html",
+            "chunk_id": "singapore_things_to_do-035-000-335b21ec4725",
+            "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+            "chunking_version": "1",
+            "section_path": "Intertidal Trails at Changi",
+            "accessed_on": "2026-09-14",
+            "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+            "destination": "Singapore",
+            "chunk_index": 35,
+            "character_count": 145
+          },
+          "cosine_distance": 0.28974592685699463
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: See\n\n. Red junglefowl (often called wild chickens) can often be seen in many grassy areas around the city, even in downtown areas. City parks full of locals jogging or doing tai chi can be found everywhere. See Botanical tourism in Singapore for details on where to see trees and plants.",
+          "metadata": {
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "heading_2": "See",
+            "section_index": 40,
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "section_path": "See",
+            "destination": "Singapore",
+            "source_id": "singapore_wikivoyage",
+            "chunking_version": "1",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "character_count": 319,
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "accessed_on": "2026-09-14",
+            "chunk_index": 103,
+            "chunk_id": "singapore_wikivoyage-040-002-2d22593e68a8",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "piece_index": 2
+          },
+          "cosine_distance": 0.3003259301185608
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Day 3: Be One with Nature (plus a spot of shopping) > Morning > Singapore Botanic Gardens\n\nEnjoy lush gardens, peace and tranquility at this 150-year-old green destination–which happens to be Singapore’s first UNESCO World Heritage Site.",
+          "metadata": {
+            "title": "Explore Singapore in 4 Days: Ultimate Itinerary & Tours!",
+            "section_path": "Day 3: Be One with Nature (plus a spot of shopping) > Morning > Singapore Botanic Gardens",
+            "piece_index": 0,
+            "source_id": "singapore_4_day_itinerary",
+            "chunking_version": "1",
+            "section_index": 19,
+            "local_path": "data/raw/singapore_4_day_itinerary.html",
+            "destination": "Singapore",
+            "heading_4": "Singapore Botanic Gardens",
+            "character_count": 269,
+            "heading_3": "Morning",
+            "source_sha256": "38b583952014c937648d2ce255e375196ccb0fcf72549eaba302c39cf880e725",
+            "source": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "url": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+            "chunk_index": 19,
+            "heading_2": "Day 3: Be One with Nature (plus a spot of shopping)",
+            "accessed_on": "2026-09-14",
+            "chunk_id": "singapore_4_day_itinerary-019-000-ad49a5c68d0a"
+          },
+          "cosine_distance": 0.3046436309814453
+        }
+      ]
+    },
+    {
+      "topic": "Unsupported destination question",
+      "question": "Which ski resorts should I visit in Switzerland?",
+      "review_for": "This Singapore knowledge base does not support Switzerland ski recommendations. Returned neighbours must not be treated as an answer.",
+      "results": [
+        {
+          "rank": 1,
+          "page_content": "Destination: Singapore\nSection: Overview\n\nThe country has a partly deserved reputation for its sterile predictability. Nevertheless, the \"Switzerland of Asia\" is for many a welcome respite from the chaos, dirt and poverty of much of the rest of Southeast Asia. If you scratch below the squeaky clean surface and get away from the tourist trail you'll soon find more than meets the eye in one of the few remaining city-states in the world.",
+          "metadata": {
+            "piece_index": 1,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "character_count": 438,
+            "accessed_on": "2026-09-14",
+            "destination": "Singapore",
+            "chunk_id": "singapore_wikivoyage-000-001-f4220d26efdf",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunking_version": "1",
+            "source_id": "singapore_wikivoyage",
+            "section_index": 0,
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "section_path": "Overview",
+            "chunk_index": 1,
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa"
+          },
+          "cosine_distance": 0.4097179174423218
+        },
+        {
+          "rank": 2,
+          "page_content": "Destination: Singapore\nSection: Do\n\nWhile you can find a place to practice nearly any sport in Singapore — golfing, surfing, scuba diving, even ice skating and snow skiing — due to the country's small size your options are rather limited and prices are relatively high. For scuba diving in particular, the busy shipping lanes and sheer population pressure mean that the sea around Singapore is murky, and most locals head across the border into Malaysia (in particular Pulau Tioman or Pulau Dayang) to get their fix. On the upside, there is an abundance of dive shops in Singapore, and they often arrange weekend trips to good dive sites off the East Coast of Malaysia.",
+          "metadata": {
+            "section_path": "Do",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "chunking_version": "1",
+            "accessed_on": "2026-09-14",
+            "character_count": 669,
+            "chunk_id": "singapore_wikivoyage-042-000-ac6fc8e69e24",
+            "section_index": 42,
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_index": 106,
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "heading_2": "Do",
+            "piece_index": 0,
+            "destination": "Singapore",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "source_id": "singapore_wikivoyage"
+          },
+          "cosine_distance": 0.48286688327789307
+        },
+        {
+          "rank": 3,
+          "page_content": "Destination: Singapore\nSection: Do > Snow sports\n\nBeing just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors.  \nIce skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang .",
+          "metadata": {
+            "accessed_on": "2026-09-14",
+            "destination": "Singapore",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "heading_2": "Do",
+            "chunk_index": 121,
+            "piece_index": 0,
+            "character_count": 512,
+            "section_path": "Do > Snow sports",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "source_id": "singapore_wikivoyage",
+            "chunk_id": "singapore_wikivoyage-050-000-9a4c8f9f66f6",
+            "chunking_version": "1",
+            "section_index": 50,
+            "heading_3": "Snow sports"
+          },
+          "cosine_distance": 0.49103468656539917
+        },
+        {
+          "rank": 4,
+          "page_content": "Destination: Singapore\nSection: Do > Gambling\n\nSingapore has two massive casinos, always referred to with the euphemism \"integrated resort\", which pull in nearly as much revenue as the entirety of Las Vegas. Marina Bay Sands at Marina Bay is the larger and swankier of the two, while Resorts World Sentosa at Sentosa aims for a more family-friendly experience. While locals (citizens and permanent residents) have to pay $150/day to get in, foreign visitors can enter for free after presenting their passport.  \nBesides the casino, there are other forms of legalised betting which are more accessible to the locals. This includes football (soccer) betting and several lotteries run by the Singapore Pools . Horse racing in Singapore was terminated in October 2024, but you can bet on foreign races through the Singapore Pools.",
+          "metadata": {
+            "url": "https://en.wikivoyage.org/wiki/Singapore",
+            "destination": "Singapore",
+            "heading_3": "Gambling",
+            "chunk_id": "singapore_wikivoyage-044-000-e024229b092d",
+            "section_index": 44,
+            "chunking_version": "1",
+            "character_count": 826,
+            "piece_index": 0,
+            "accessed_on": "2026-09-14",
+            "title": "Singapore – Travel guide at Wikivoyage",
+            "source_id": "singapore_wikivoyage",
+            "source": "https://en.wikivoyage.org/wiki/Singapore",
+            "chunk_index": 111,
+            "heading_2": "Do",
+            "section_path": "Do > Gambling",
+            "local_path": "data/raw/singapore_wikivoyage.html",
+            "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa"
+          },
+          "cosine_distance": 0.5094483494758606
+        }
+      ]
+    }
+  ]
+}

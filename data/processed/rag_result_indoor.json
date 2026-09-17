@@ -1,0 +1,198 @@
+{
+  "created_at_utc": "2026-09-14T09:59:00.186248+00:00",
+  "question": "What indoor attractions in Singapore can I visit on a rainy day?",
+  "model": "gemini-3.7-flash",
+  "prompt_version": "1",
+  "answer": {
+    "status": "answered",
+    "facts": [
+      {
+        "text": "Snow City is a permanent indoor snow centre where guests can experience winter and engage in snow activities.",
+        "evidence": [
+          {
+            "passage_id": "P1",
+            "quote": "sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter."
+          }
+        ]
+      },
+      {
+        "text": "Curiosity Cove provides an indoor nature-inspired playscape with interactive zones tailored for children aged 12 and under.",
+        "evidence": [
+          {
+            "passage_id": "P4",
+            "quote": "Discover Singapore’s largest indoor nature-inspired playscape for kids 12 and under."
+          }
+        ]
+      },
+      {
+        "text": "Air-conditioned museums, cafes, and shops offer shelter across the city when it rains.",
+        "evidence": [
+          {
+            "passage_id": "P3",
+            "quote": "pop into air-conditioned shops, cafes and museums to cool off or take shelter from rain"
+          }
+        ]
+      }
+    ],
+    "suggestions": [
+      {
+        "text": "You can try skiing, snowboarding, or snow play at Snow City during inclement weather.",
+        "evidence": [
+          {
+            "passage_id": "P1",
+            "quote": "Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard"
+          }
+        ]
+      },
+      {
+        "text": "Families with young children can visit Curiosity Cove for educational indoor exploration.",
+        "evidence": [
+          {
+            "passage_id": "P4",
+            "quote": "Through interactive and educational play, children explore how animals live, adapt and thrive in the wild across four immersive zones"
+          }
+        ]
+      }
+    ],
+    "missing_information": []
+  },
+  "answer_markdown": "### Information from the travel sources\n\n- Snow City is a permanent indoor snow centre where guests can experience winter and engage in snow activities. [P1]\n- Curiosity Cove provides an indoor nature-inspired playscape with interactive zones tailored for children aged 12 and under. [P4]\n- Air-conditioned museums, cafes, and shops offer shelter across the city when it rains. [P3]\n\n### Suggested plan or choices\n\n- You can try skiing, snowboarding, or snow play at Snow City during inclement weather. [P1]\n- Families with young children can visit Curiosity Cove for educational indoor exploration. [P4]\n\n### Sources\n\n- [P1] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Do > Snow sports\n- [P3] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Get around > On foot\n- [P4] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — Curiosity Cove\n\nSources are saved reference documents; live details have not been checked.",
+  "retrieved_passages": [
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Do > Snow sports\n\nBeing just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors.  \nIce skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang .",
+      "metadata": {
+        "character_count": 512,
+        "source_id": "singapore_wikivoyage",
+        "destination": "Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "section_path": "Do > Snow sports",
+        "chunk_index": 121,
+        "accessed_on": "2026-09-14",
+        "heading_3": "Snow sports",
+        "section_index": 50,
+        "heading_2": "Do",
+        "chunking_version": "1",
+        "chunk_id": "singapore_wikivoyage-050-000-9a4c8f9f66f6",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "piece_index": 0,
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa"
+      },
+      "cosine_distance": 0.3311800956726074,
+      "keyword_similarity": 0.060414193076681805,
+      "rerank_score": 3.1805310249328613,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P1"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: See\n\n- Nature and wildlife : Popular tourist attractions in the Mandai Wildlife Reserve include the Singapore Zoo , Night Safari , Bird Paradise and River Wonders . The Mandai Boardwalk is a free scenic walk along the Upper Seletar Reservoir in the Mandai Wildlife Reserve. The Botanic Gardens are the only UNESCO World Heritage Site in Singapore. For something closer to the city, visit the futuristic Gardens by the Bay in the Marina district, behind the Marina Bay Sands. Finding \"real\" nature is a little harder, but the Bukit Timah Nature Reserve (in the same district as the zoo) has more plant species than in the whole of North America, and is also home to a thriving population of wild monkeys. Pulau Ubin , an island off the Changi Village in the east, is a flashback to the rural Singapore of yesteryear. Red junglefowl (often called wild chickens) can often be seen in many grassy areas around the city, even in downtown areas",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "See",
+        "section_path": "See",
+        "section_index": 40,
+        "chunk_index": 102,
+        "piece_index": 1,
+        "chunk_id": "singapore_wikivoyage-040-001-a5b142b9fea1",
+        "character_count": 970,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.06067399689656908,
+      "rerank_score": 0.9634127020835876,
+      "candidate_methods": [
+        "keyword"
+      ],
+      "passage_id": "P2"
+    },
+    {
+      "rank": 3,
+      "page_content": "Destination: Singapore\nSection: Get around > On foot\n\nAn unavoidable downside, though, is the tropical heat and humidity , which leaves many visitors sweaty and exhausted, so do as the locals do and bring along a little towel, a bottle of water and even an umbrella to protect against the searing heat. Also, afternoon thunderstorms are fairly common during the monsoon season. It's best to get an early start, pop into air-conditioned shops, cafes and museums to cool off or take shelter from rain, and plan on heading back to the shopping mall or hotel pool before noon. Alternatively, after sundown, evenings can also be comparatively cool. On the upside, the fact that the sun is often covered in clouds and shaded by trees and greenery along roads means that you won't get as easily sunburnt as otherwise at these latitudes",
+      "metadata": {
+        "character_count": 828,
+        "source_id": "singapore_wikivoyage",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "piece_index": 1,
+        "section_index": 39,
+        "heading_2": "Get around",
+        "chunking_version": "1",
+        "chunk_index": 98,
+        "destination": "Singapore",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "accessed_on": "2026-09-14",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_path": "Get around > On foot",
+        "heading_3": "On foot",
+        "chunk_id": "singapore_wikivoyage-039-001-28d9cb06d00b"
+      },
+      "cosine_distance": 0.33959680795669556,
+      "keyword_similarity": 0.0,
+      "rerank_score": 0.8678135275840759,
+      "candidate_methods": [
+        "semantic"
+      ],
+      "passage_id": "P3"
+    },
+    {
+      "rank": 4,
+      "page_content": "Destination: Singapore\nSection: Curiosity Cove\n\nDiscover Singapore’s largest indoor nature-inspired playscape for kids 12 and under. Through interactive and educational play, children explore how animals live, adapt and thrive in the wild across four immersive zones filled with wonder and discovery.",
+      "metadata": {
+        "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+        "chunk_index": 17,
+        "heading_2": "Curiosity Cove",
+        "section_path": "Curiosity Cove",
+        "character_count": 300,
+        "accessed_on": "2026-09-14",
+        "title": "Things To Do & Must-Visit Places in Singapore",
+        "local_path": "data/raw/singapore_things_to_do.html",
+        "destination": "Singapore",
+        "piece_index": 0,
+        "section_index": 17,
+        "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "source_id": "singapore_things_to_do",
+        "chunking_version": "1",
+        "chunk_id": "singapore_things_to_do-017-000-4d6fadb09db3"
+      },
+      "cosine_distance": 0.3454015254974365,
+      "keyword_similarity": 0.0822570543441175,
+      "rerank_score": 0.6003826260566711,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P4"
+    }
+  ],
+  "usage_metadata": {
+    "input_tokens": 1336,
+    "output_tokens": 993,
+    "total_tokens": 2329,
+    "input_token_details": {
+      "cache_read": 0
+    },
+    "output_token_details": {
+      "reasoning": 542
+    }
+  },
+  "checks": {
+    "citation_ids_and_evidence_quotes_valid": true,
+    "semantic_grounding_requires_review": true
+  },
+  "live_tools_used": false
+}

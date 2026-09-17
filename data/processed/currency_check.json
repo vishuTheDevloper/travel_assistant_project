@@ -1,0 +1,33 @@
+{
+  "check_type": "direct_currency_component",
+  "mcp_protocol_tested": false,
+  "currency": {
+    "status": "ok",
+    "amount": "10000.00",
+    "source_currency": "INR",
+    "target_currency": "SGD",
+    "exchange_rate": "0.0133",
+    "rate_definition": "1 INR = 0.0133 SGD",
+    "converted_amount": "133.00",
+    "calculation": "10000.00 INR x 0.0133 = 133.00 SGD (rounded)",
+    "rounding": {
+      "method": "ROUND_HALF_UP",
+      "decimal_places": 2
+    },
+    "rate_kind": "daily_reference_rate",
+    "rate_date": "2026-09-14",
+    "rate_age_days": 0,
+    "calculated_at_utc": "2026-09-14T18:25:23.117869+00:00",
+    "fetched_at_utc": "2026-09-14T18:25:23.117874+00:00",
+    "provider": "Frankfurter",
+    "rate_source": "European Central Bank (ECB)",
+    "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "documentation_url": "https://frankfurter.dev/",
+    "request_url": "https://api.frankfurter.dev/v2/rate/inr/sgd?providers=ecb",
+    "external_rate_fetched": true,
+    "notes": [
+      "This is the latest published daily reference rate returned by the API. The publication date may be an earlier business day.",
+      "The conversion is an estimate; provider fees and bank or card exchange-rate margins are not included."
+    ]
+  }
+}

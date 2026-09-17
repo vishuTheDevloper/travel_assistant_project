@@ -1,0 +1,152 @@
+{
+  "created_at_utc": "2026-09-14T10:05:46.686028+00:00",
+  "question": "Which ski resorts should I visit in Switzerland?",
+  "model": "gemini-3.7-flash",
+  "prompt_version": "1",
+  "answer": {
+    "status": "insufficient_information",
+    "facts": [],
+    "suggestions": [],
+    "missing_information": [
+      "The knowledge base only contains information about Singapore and does not contain details about ski resorts in Switzerland."
+    ]
+  },
+  "answer_markdown": "### Information still needed\n\n- The knowledge base only contains information about Singapore and does not contain details about ski resorts in Switzerland.",
+  "retrieved_passages": [
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Overview\n\nThe country has a partly deserved reputation for its sterile predictability. Nevertheless, the \"Switzerland of Asia\" is for many a welcome respite from the chaos, dirt and poverty of much of the rest of Southeast Asia. If you scratch below the squeaky clean surface and get away from the tourist trail you'll soon find more than meets the eye in one of the few remaining city-states in the world.",
+      "metadata": {
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "destination": "Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "source_id": "singapore_wikivoyage",
+        "section_index": 0,
+        "chunk_index": 1,
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "chunking_version": "1",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_path": "Overview",
+        "chunk_id": "singapore_wikivoyage-000-001-f4220d26efdf",
+        "piece_index": 1,
+        "character_count": 438
+      },
+      "cosine_distance": 0.4097179174423218,
+      "keyword_similarity": 0.056365965497179,
+      "rerank_score": -6.065033435821533,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P1"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Do > Snow sports\n\nBeing just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors.  \nIce skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang .",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "chunk_id": "singapore_wikivoyage-050-000-9a4c8f9f66f6",
+        "destination": "Singapore",
+        "section_path": "Do > Snow sports",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "heading_3": "Snow sports",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunking_version": "1",
+        "chunk_index": 121,
+        "heading_2": "Do",
+        "piece_index": 0,
+        "section_index": 50,
+        "accessed_on": "2026-09-14",
+        "character_count": 512,
+        "url": "https://en.wikivoyage.org/wiki/Singapore"
+      },
+      "cosine_distance": 0.49103468656539917,
+      "keyword_similarity": 0.06733689414435617,
+      "rerank_score": -7.339284420013428,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P2"
+    },
+    {
+      "rank": 3,
+      "page_content": "Destination: Singapore\nSection: Understand > History\n\nIn modern times, Singapore has tried to position itself as a neutral state balancing the interests of major world powers such as the United States and China. This has made Singapore a popular alternative to Switzerland for diplomatically sensitive talks between foreign leaders, such as the meeting between Chinese president Xi Jinping and Taiwanese president Ma Ying-jeou in 2015, and the meeting between American president Donald Trump and North Korean leader Kim Jong-un in 2018.",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Understand",
+        "heading_3": "History",
+        "section_path": "Understand > History",
+        "section_index": 6,
+        "chunk_index": 14,
+        "piece_index": 6,
+        "chunk_id": "singapore_wikivoyage-006-006-52251177a10e",
+        "character_count": 536,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.04587485270308426,
+      "rerank_score": -10.002127647399902,
+      "candidate_methods": [
+        "keyword"
+      ],
+      "passage_id": "P3"
+    },
+    {
+      "rank": 4,
+      "page_content": "Destination: Singapore\nSection: Do\n\nWhile you can find a place to practice nearly any sport in Singapore — golfing, surfing, scuba diving, even ice skating and snow skiing — due to the country's small size your options are rather limited and prices are relatively high. For scuba diving in particular, the busy shipping lanes and sheer population pressure mean that the sea around Singapore is murky, and most locals head across the border into Malaysia (in particular Pulau Tioman or Pulau Dayang) to get their fix. On the upside, there is an abundance of dive shops in Singapore, and they often arrange weekend trips to good dive sites off the East Coast of Malaysia.",
+      "metadata": {
+        "section_index": 42,
+        "heading_2": "Do",
+        "destination": "Singapore",
+        "accessed_on": "2026-09-14",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunk_index": 106,
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "source_id": "singapore_wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunk_id": "singapore_wikivoyage-042-000-ac6fc8e69e24",
+        "character_count": 669,
+        "section_path": "Do",
+        "piece_index": 0,
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "chunking_version": "1"
+      },
+      "cosine_distance": 0.48286688327789307,
+      "keyword_similarity": 0.0,
+      "rerank_score": -10.253440856933594,
+      "candidate_methods": [
+        "semantic"
+      ],
+      "passage_id": "P4"
+    }
+  ],
+  "usage_metadata": {
+    "input_tokens": 1229,
+    "output_tokens": 224,
+    "total_tokens": 1453,
+    "input_token_details": {
+      "cache_read": 0
+    },
+    "output_token_details": {
+      "reasoning": 165
+    }
+  },
+  "checks": {
+    "citation_ids_and_evidence_quotes_valid": true,
+    "semantic_grounding_requires_review": true
+  },
+  "live_tools_used": false
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "singapore_wikivoyage",
+    "title": "Singapore – Travel guide at Wikivoyage",
+    "url": "https://en.wikivoyage.org/wiki/Singapore",
+    "local_path": "data/raw/singapore_wikivoyage.html",
+    "accessed_on": "2026-09-14"
+  },
+  {
+    "source_id": "singapore_essential_information",
+    "title": "Singapore Travel Guide & Tips | Travel Essentials",
+    "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+    "local_path": "data/raw/singapore_essential_information.html",
+    "accessed_on": "2026-09-14"
+  },
+  {
+    "source_id": "singapore_4_day_itinerary",
+    "title": "Explore Singapore in 4 Days: Ultimate Itinerary & Tours!",
+    "url": "https://www.visitsingapore.com/travel-tips/travelling-to-singapore/itineraries/4-days-in-singapore/",
+    "local_path": "data/raw/singapore_4_day_itinerary.html",
+    "accessed_on": "2026-09-14"
+  },
+  {
+    "source_id": "singapore_things_to_do",
+    "title": "Things To Do & Must-Visit Places in Singapore",
+    "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+    "local_path": "data/raw/singapore_things_to_do.html",
+    "accessed_on": "2026-09-14"
+  }
+]

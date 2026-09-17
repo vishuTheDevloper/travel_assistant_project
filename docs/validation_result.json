@@ -1,0 +1,82 @@
+{
+  "assistant_version": "13",
+  "verified_at_utc": "2026-09-14T18:42:50.593044+00:00",
+  "environment": "Linux / Python 3.12; key package versions match the supplied project",
+  "offline_tests": 41,
+  "all_passed": true,
+  "raw_resources": 4,
+  "regenerated_chunks": 454,
+  "raw_to_chunks_exact_match": true,
+  "stored_vectors_verified": 454,
+  "retrieved_passages": 14,
+  "pip_dependency_resolution": "passed",
+  "pip_check": "No broken requirements found",
+  "gemini_requests": 0,
+  "external_weather_requests": 0,
+  "external_currency_requests": 0,
+  "integration": "Real LangChain and MCP stdio transport; mocked Gemini responses and recorded weather fixtures",
+  "not_verified": [
+    "Demonstration video and final Git delivery",
+    "Final submission archive with the user’s video"
+  ],
+  "commands": [
+    "python scripts/check_project.py --retrieval",
+    "python -m pip check"
+  ],
+  "windows_encoding_fix": {
+    "verified_at_utc": "2026-09-14T17:49:35.278125+00:00",
+    "reported_failure": "Saved fixture read as cp1252 in parent, UTF-8 in MCP subprocess; degree unit mismatch",
+    "exact_failure_reproduced": true,
+    "method": "On Linux, patch Path.read_text to default to cp1252 only when no encoding is specified; MCP child retains configured UTF-8 environment.",
+    "corrected_offline_tests_passed": 26,
+    "corrected_source_and_manifest_check": "4 resources; 454 reproduced chunks; manifest matches",
+    "gemini_requests": 0,
+    "external_weather_currency_requests": 0,
+    "actual_windows_rerun": "User confirmed all 26 tests and real retrieval passed on Windows/Python 3.13."
+  },
+  "user_live_evidence": {
+    "three_day": "answered; 2 model requests; 1 successful MCP weather call",
+    "four_day_followup": "answered; prior preferences retained; 2 model requests; 1 successful MCP weather call",
+    "currency": "Version 12 UI answered; 2 model requests; 1 successful convert_currency MCP call; INR 10000 => SGD 133.00; rate date 2026-09-14.",
+    "food_only": "Version 13 UI answered; 1 Gemini request; 0 MCP calls; no correction; empty itinerary and assumptions; 9 verified references in 4 cited passages from 6 retrieved source chunks.",
+    "food_only_previous_failure": "Version 12 scope failure: relevant facts but unsolicited weather call and one-day itinerary; original report retained."
+  },
+  "presentation_replay": {
+    "reports": 3,
+    "tests_added": 7,
+    "gemini_requests": 0,
+    "external_provider_requests": 0,
+    "original_tool_data_preserved": true
+  },
+  "request_scope_checks": {
+    "added_tests": 8,
+    "sdk_requests": "mocked; not live Gemini",
+    "normal_source_answer_attempts": 1,
+    "live_mcp_calls_for_information_request": 0,
+    "malformed_weather_call": "blocked before execution",
+    "invented_itinerary": "rejected; at most one correction",
+    "prior_currency_or_trip_context": "does not force a new lookup into an itinerary"
+  },
+  "windows_verification": "User confirmed all 41 version 13 tests passed on Windows/Python 3.13 (16.172 seconds), plus earlier real retrieval: 4 resources, 454 chunks/vectors, 14 passages.",
+  "food_live_review": {
+    "report": "assistant_20260914T185019_941207Z.json",
+    "original_created_at_utc": "2026-09-14T18:50:19.936529+00:00",
+    "model_calls": 1,
+    "mcp_calls": 0,
+    "correction": false,
+    "original_markdown_matches_report": true,
+    "evidence_references_verified": 9,
+    "retrieved_chunks_match_corpus": 6,
+    "prior_turns_in_this_run": 0,
+    "reviewer_model_and_provider_calls": 0,
+    "display_only_adjustment": "Non-itinerary tips heading corrected offline; exact source content and citations unchanged."
+  },
+  "food_display_verification": {
+    "method": "Render the actual successful saved answer and compare with the original after substituting only the generic heading/introduction.",
+    "original_report_and_answer_unchanged": true,
+    "focused_existing_tests_run": 8,
+    "focused_existing_tests_passed": 8,
+    "gemini_and_external_provider_requests": 0,
+    "full_windows_41_test_confirmation": "Before the final display wording adjustment; the update did not add tests."
+  }
+}

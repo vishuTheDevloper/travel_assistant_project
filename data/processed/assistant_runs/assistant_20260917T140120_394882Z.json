@@ -1,0 +1,627 @@
+{
+  "created_at_utc": "2026-09-17T14:01:20.370961+00:00",
+  "assistant_version": "13",
+  "question": "which local dishes should i try at Singapore hawker centres?",
+  "model": "gemini-3.5-flash-lite",
+  "model_calls": 1,
+  "automatic_retries": false,
+  "status": "answered",
+  "answer": {
+    "status": "answered",
+    "knowledge_facts": [
+      {
+        "text": "- Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan .",
+        "evidence": [
+          {
+            "passage_id": "P1",
+            "quote": "- Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan ."
+          }
+        ]
+      },
+      {
+        "text": "Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added.",
+        "evidence": [
+          {
+            "passage_id": "P1",
+            "quote": "Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added."
+          }
+        ]
+      },
+      {
+        "text": "- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat.",
+        "evidence": [
+          {
+            "passage_id": "P2",
+            "quote": "- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat."
+          }
+        ]
+      },
+      {
+        "text": "The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs.",
+        "evidence": [
+          {
+            "passage_id": "P2",
+            "quote": "The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs."
+          }
+        ]
+      },
+      {
+        "text": "Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:",
+        "evidence": [
+          {
+            "passage_id": "P3",
+            "quote": "Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:"
+          }
+        ]
+      }
+    ],
+    "suggestions": [
+      {
+        "text": "Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver.",
+        "evidence": [
+          {
+            "passage_id": "P4",
+            "quote": "Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table."
+          },
+          {
+            "passage_id": "P4",
+            "quote": "First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver."
+          }
+        ]
+      },
+      {
+        "text": "If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away.",
+        "evidence": [
+          {
+            "passage_id": "P4",
+            "quote": "If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away."
+          }
+        ]
+      }
+    ],
+    "itinerary": [],
+    "assumptions": [],
+    "missing_information": []
+  },
+  "answer_markdown": "### Facts from the knowledge base\n\nSelected excerpts from the saved travel sources; […] marks a gap between selections:\n\n> - Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan . [P1]\n\n> Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added. [P1]\n\n> - Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat. [P2]\n\n> The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs. [P2]\n\n> Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including: [P3]\n\n### Practical tips from the sources\n\n- Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. [P4]\n\n- If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away. [P4]\n\n### Knowledge-base sources\n\n- [P1] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Local delicacies > Chinese cuisine\n- [P2] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Local delicacies > Peranakan/Nonya cuisine\n- [P3] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Local delicacies > Indian cuisine\n- [P4] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Hawker centres\n\nDestination sources are saved reference documents. Current opening hours, ticket availability and prices have not been verified.",
+  "retrieved_passages": [
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Eat > Local delicacies > Chinese cuisine\n\n- Bak kut teh with rice and you tiao fritters  \n- Hainanese chicken rice  \n- Fried Hokkien mee  \n- Prawn mee and pork rib soup  \nChinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan . While \"authentic\" fare is certainly available, especially in fancier restaurants, the daily fare served in hawker centres has absorbed a number of tropical touches, most notably the fairly heavy use of chilli and the Malay fermented shrimp paste belacan as condiments. Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl.  \n- Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added.",
+      "metadata": {
+        "chunking_version": "1",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "piece_index": 0,
+        "source_id": "singapore_wikivoyage",
+        "accessed_on": "2026-09-14",
+        "character_count": 995,
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "section_index": 63,
+        "heading_3": "Local delicacies",
+        "section_path": "Eat > Local delicacies > Chinese cuisine",
+        "destination": "Singapore",
+        "chunk_index": 155,
+        "heading_2": "Eat",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunk_id": "singapore_wikivoyage-063-000-7bee92340cc4",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_4": "Chinese cuisine"
+      },
+      "cosine_distance": 0.29167014360427856,
+      "keyword_similarity": 0.05339606422375779,
+      "rerank_score": 6.19820499420166,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P1"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Eat > Local delicacies > Peranakan/Nonya cuisine\n\n- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat. The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia.  \n- Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs. Though the Chinese, Malays and Indians all have their own versions, it is the Peranakan version that is most popular with Singaporeans. You will largely find this at Malay stalls.",
+      "metadata": {
+        "section_path": "Eat > Local delicacies > Peranakan/Nonya cuisine",
+        "chunk_index": 145,
+        "heading_4": "Peranakan/Nonya cuisine",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunk_id": "singapore_wikivoyage-061-002-cbbbbcd5b305",
+        "heading_2": "Eat",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "destination": "Singapore",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "piece_index": 2,
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_3": "Local delicacies",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "source_id": "singapore_wikivoyage",
+        "accessed_on": "2026-09-14",
+        "character_count": 980,
+        "chunking_version": "1",
+        "section_index": 61
+      },
+      "cosine_distance": 0.31558090448379517,
+      "keyword_similarity": 0.05743264886908432,
+      "rerank_score": 6.197466850280762,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P2"
+    },
+    {
+      "rank": 3,
+      "page_content": "Destination: Singapore\nSection: Eat > Local delicacies > Indian cuisine\n\nThe smallest of Singapore's big three ethnic groups, Indians have had proportionally the smallest impact on the local culinary scene, but there is no shortage of Indian food even at many hawker centres and most neighborhoods have at least a couple of mamak (Indian Muslim) shops, often open 24 hours. Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:",
+      "metadata": {
+        "heading_2": "Eat",
+        "chunk_id": "singapore_wikivoyage-064-000-09961f8e8bf7",
+        "accessed_on": "2026-09-14",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "section_index": 64,
+        "chunk_index": 166,
+        "heading_4": "Indian cuisine",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "character_count": 777,
+        "section_path": "Eat > Local delicacies > Indian cuisine",
+        "source_id": "singapore_wikivoyage",
+        "destination": "Singapore",
+        "chunking_version": "1",
+        "heading_3": "Local delicacies",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "piece_index": 0
+      },
+      "cosine_distance": 0.2935507297515869,
+      "keyword_similarity": 0.08864303728568383,
+      "rerank_score": 6.139894485473633,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P3"
+    },
+    {
+      "rank": 4,
+      "page_content": "Destination: Singapore\nSection: Eat > Hawker centres\n\nHawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions:  \n- \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away.",
+      "metadata": {
+        "section_index": 65,
+        "character_count": 774,
+        "heading_2": "Eat",
+        "piece_index": 2,
+        "destination": "Singapore",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "chunk_id": "singapore_wikivoyage-065-002-84346ebec82e",
+        "accessed_on": "2026-09-14",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "source_id": "singapore_wikivoyage",
+        "section_path": "Eat > Hawker centres",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "chunking_version": "1",
+        "heading_3": "Hawker centres",
+        "chunk_index": 171,
+        "url": "https://en.wikivoyage.org/wiki/Singapore"
+      },
+      "cosine_distance": 0.2137719988822937,
+      "keyword_similarity": 0.09949530577851398,
+      "rerank_score": 5.367210388183594,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P4"
+    },
+    {
+      "rank": 5,
+      "page_content": "Destination: Singapore\nSection: Eat > Coffeeshops and bubble tea\n\nDespite the name, coffeeshops or kopitiam sell much more than coffee — they are effectively mini-hawker centres with perhaps only half a dozen stalls (one of which will, however, sell coffee and other drinks). The Singaporean equivalent of pubs, this is where folks come for the canonical Singaporean breakfast of kopi (strong, sugary coffee), some kaya (egg-coconut jam) toast and runny eggs, and this is also where they come to down a beer or two and chat away in the evenings. Many coffee shops offer zi char/cze cha (煮炒) for dinner, meaning a menu of local dishes, mostly Chinese-style seafood, served to your table at mid-range prices.",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Eat",
+        "heading_3": "Coffeeshops and bubble tea",
+        "section_path": "Eat > Coffeeshops and bubble tea",
+        "section_index": 66,
+        "chunk_index": 176,
+        "piece_index": 0,
+        "chunk_id": "singapore_wikivoyage-066-000-383ae2cd436d",
+        "character_count": 706,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.130891277251245,
+      "rerank_score": 4.896141052246094,
+      "candidate_methods": [
+        "keyword"
+      ],
+      "passage_id": "P5"
+    },
+    {
+      "rank": 6,
+      "page_content": "Destination: Singapore\nSection: Eat > Hawker centres\n\nThe cheapest and most popular places to eat in Singapore are hawker centres , essentially former pushcart vendors directed into giant complexes by government fiat. Prices are low ($4–6 for most dishes), hygiene standards are high (every stall is required to prominently display a hygiene certificate grading it from A to D) and the food can be excellent. Ambience tends to be a little lacking though and there is no air-conditioning either, but a visit to a hawker centre is a must when in Singapore, if you wish to experience authentic local food culture in the heartlands themselves. However, be leery of overzealous pushers-cum-salesmen, especially at the Satay Club in Lau Pa Sat and Newton Food Centre at Newton Circus: the tastiest stalls don't need high-pressure tactics to find customers. Touting for business is illegal, and occasionally a reminder of this can result in people backing off a bit",
+      "metadata": {
+        "heading_3": "Hawker centres",
+        "accessed_on": "2026-09-14",
+        "chunk_id": "singapore_wikivoyage-065-000-dc05207077a1",
+        "piece_index": 0,
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "destination": "Singapore",
+        "chunk_index": 169,
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source_id": "singapore_wikivoyage",
+        "section_path": "Eat > Hawker centres",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_index": 65,
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "chunking_version": "1",
+        "heading_2": "Eat",
+        "character_count": 958
+      },
+      "cosine_distance": 0.17838811874389648,
+      "keyword_similarity": 0.15287618350260607,
+      "rerank_score": 4.5579938888549805,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P6"
+    }
+  ],
+  "retrieval_queries": [
+    "which local dishes should i try at Singapore hawker centres?"
+  ],
+  "source_excerpt_catalog": {
+    "P1-E1": {
+      "passage_id": "P1",
+      "quote": "- Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan ."
+    },
+    "P1-E2": {
+      "passage_id": "P1",
+      "quote": "While \"authentic\" fare is certainly available, especially in fancier restaurants, the daily fare served in hawker centres has absorbed a number of tropical touches, most notably the fairly heavy use of chilli and the Malay fermented shrimp paste belacan as condiments."
+    },
+    "P1-E3": {
+      "passage_id": "P1",
+      "quote": "Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added."
+    },
+    "P1-E4": {
+      "passage_id": "P1",
+      "quote": "Black vinegar may also be added."
+    },
+    "P2-E1": {
+      "passage_id": "P2",
+      "quote": "- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat."
+    },
+    "P2-E2": {
+      "passage_id": "P2",
+      "quote": "The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat. The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page )."
+    },
+    "P2-E3": {
+      "passage_id": "P2",
+      "quote": "The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs."
+    },
+    "P2-E4": {
+      "passage_id": "P2",
+      "quote": "Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs. Though the Chinese, Malays and Indians all have their own versions, it is the Peranakan version that is most popular with Singaporeans."
+    },
+    "P2-E5": {
+      "passage_id": "P2",
+      "quote": "Though the Chinese, Malays and Indians all have their own versions, it is the Peranakan version that is most popular with Singaporeans. You will largely find this at Malay stalls."
+    },
+    "P2-E6": {
+      "passage_id": "P2",
+      "quote": "You will largely find this at Malay stalls."
+    },
+    "P3-E1": {
+      "passage_id": "P3",
+      "quote": "The smallest of Singapore's big three ethnic groups, Indians have had proportionally the smallest impact on the local culinary scene, but there is no shortage of Indian food even at many hawker centres and most neighborhoods have at least a couple of mamak (Indian Muslim) shops, often open 24 hours."
+    },
+    "P3-E2": {
+      "passage_id": "P3",
+      "quote": "Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:"
+    },
+    "P3-E3": {
+      "passage_id": "P3",
+      "quote": "In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:"
+    },
+    "P4-E1": {
+      "passage_id": "P4",
+      "quote": "Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table."
+    },
+    "P4-E2": {
+      "passage_id": "P4",
+      "quote": "First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver."
+    },
+    "P4-E3": {
+      "passage_id": "P4",
+      "quote": "If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away."
+    },
+    "P4-E4": {
+      "passage_id": "P4",
+      "quote": "The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away."
+    },
+    "P5-E1": {
+      "passage_id": "P5",
+      "quote": "Despite the name, coffeeshops or kopitiam sell much more than coffee — they are effectively mini-hawker centres with perhaps only half a dozen stalls (one of which will, however, sell coffee and other drinks). The Singaporean equivalent of pubs, this is where folks come for the canonical Singaporean breakfast of kopi (strong, sugary coffee), some kaya (egg-coconut jam) toast and runny eggs, and this is also where they come to down a beer or two and chat away in the evenings."
+    },
+    "P5-E2": {
+      "passage_id": "P5",
+      "quote": "The Singaporean equivalent of pubs, this is where folks come for the canonical Singaporean breakfast of kopi (strong, sugary coffee), some kaya (egg-coconut jam) toast and runny eggs, and this is also where they come to down a beer or two and chat away in the evenings. Many coffee shops offer zi char/cze cha (煮炒) for dinner, meaning a menu of local dishes, mostly Chinese-style seafood, served to your table at mid-range prices."
+    },
+    "P5-E3": {
+      "passage_id": "P5",
+      "quote": "Many coffee shops offer zi char/cze cha (煮炒) for dinner, meaning a menu of local dishes, mostly Chinese-style seafood, served to your table at mid-range prices."
+    },
+    "P6-E1": {
+      "passage_id": "P6",
+      "quote": "The cheapest and most popular places to eat in Singapore are hawker centres , essentially former pushcart vendors directed into giant complexes by government fiat. Prices are low ($4–6 for most dishes), hygiene standards are high (every stall is required to prominently display a hygiene certificate grading it from A to D) and the food can be excellent."
+    },
+    "P6-E2": {
+      "passage_id": "P6",
+      "quote": "Prices are low ($4–6 for most dishes), hygiene standards are high (every stall is required to prominently display a hygiene certificate grading it from A to D) and the food can be excellent. Ambience tends to be a little lacking though and there is no air-conditioning either, but a visit to a hawker centre is a must when in Singapore, if you wish to experience authentic local food culture in the heartlands themselves."
+    },
+    "P6-E3": {
+      "passage_id": "P6",
+      "quote": "Ambience tends to be a little lacking though and there is no air-conditioning either, but a visit to a hawker centre is a must when in Singapore, if you wish to experience authentic local food culture in the heartlands themselves. However, be leery of overzealous pushers-cum-salesmen, especially at the Satay Club in Lau Pa Sat and Newton Food Centre at Newton Circus: the tastiest stalls don't need high-pressure tactics to find customers."
+    },
+    "P6-E4": {
+      "passage_id": "P6",
+      "quote": "However, be leery of overzealous pushers-cum-salesmen, especially at the Satay Club in Lau Pa Sat and Newton Food Centre at Newton Circus: the tastiest stalls don't need high-pressure tactics to find customers. Touting for business is illegal, and occasionally a reminder of this can result in people backing off a bit"
+    },
+    "P6-E5": {
+      "passage_id": "P6",
+      "quote": "Touting for business is illegal, and occasionally a reminder of this can result in people backing off a bit"
+    }
+  },
+  "submitted_answer": {
+    "missing_information": [],
+    "assumptions": [],
+    "suggestions": [
+      {
+        "text": "When visiting hawker centres, remember local etiquette such as 'choping' your table with a packet of tissue paper before ordering.",
+        "evidence": [
+          {
+            "excerpt_id": "P4-E1"
+          },
+          {
+            "excerpt_id": "P4-E2"
+          }
+        ]
+      },
+      {
+        "evidence": [
+          {
+            "excerpt_id": "P4-E3"
+          }
+        ],
+        "text": "At hawker stalls not marked self-service, note down your table number so the stall can deliver your food."
+      }
+    ],
+    "knowledge_facts": [
+      {
+        "text": "Bak kut teh with rice and you tiao fritters, Hainanese chicken rice, Fried Hokkien mee, and prawn mee/pork rib soup are popular Chinese local dishes in Singapore.",
+        "evidence": [
+          {
+            "excerpt_id": "P1-E1"
+          }
+        ]
+      },
+      {
+        "text": "Bak chor mee features noodles with minced pork tossed in a chilli-based sauce with lard, ikan bilis, vegetables, and mushrooms, often with black vinegar.",
+        "evidence": [
+          {
+            "excerpt_id": "P1-E3"
+          }
+        ]
+      },
+      {
+        "text": "Laksa (such as Katong laksa or laksa lemak) consists of slippery rice noodles in a rich coconut-based curry broth with cockles or shrimp, commonly found in hawker centres.",
+        "evidence": [
+          {
+            "excerpt_id": "P2-E1"
+          }
+        ]
+      },
+      {
+        "text": "Mee siam features rice flour noodles served in a sweet-sour tamarind, dried shrimp, and fermented bean soup with bean curd cubes and hard-boiled eggs.",
+        "evidence": [
+          {
+            "excerpt_id": "P2-E3"
+          }
+        ]
+      },
+      {
+        "evidence": [
+          {
+            "excerpt_id": "P3-E2"
+          }
+        ],
+        "text": "Various Indian dishes like dosa, idli with sambar, and north Indian curries can be found at many hawker centres alongside mamak shops."
+      }
+    ],
+    "itinerary": [],
+    "status": "answered"
+  },
+  "format_normalization": [],
+  "validation_correction": {
+    "attempted": false,
+    "maximum_requests": 1
+  },
+  "tool_calls": [],
+  "calendar": {
+    "singapore_today": "2026-09-17",
+    "next_week_monday": "2026-09-21",
+    "next_week_wednesday": "2026-09-23",
+    "next_week_sunday": "2026-09-27",
+    "last_supported_forecast_date": "2026-10-02",
+    "request_scope": {
+      "mode": "destination_information",
+      "allow_itinerary": false,
+      "allow_live_tools": false,
+      "reason": "Clear information question without a requested itinerary or live measurement/conversion."
+    },
+    "mcp_enabled_for_request": false,
+    "mcp_available": false,
+    "mcp_connection_problem": null,
+    "knowledge_base_problem": null
+  },
+  "request_scope": {
+    "mode": "destination_information",
+    "allow_itinerary": false,
+    "allow_live_tools": false,
+    "reason": "Clear information question without a requested itinerary or live measurement/conversion."
+  },
+  "blocked_tool_calls": [],
+  "weather_planning_policy": {
+    "origin": "Application planning preference; not an Open-Meteo rule or a guarantee of rain.",
+    "rule": "For sheltered_main_plan dates, use sourced indoor/sheltered MAIN activities. Outdoor, mixed or unknown settings may only be optional_if_weather_allows. If sheltered options lack evidence, return a partial answer and explain the gap.",
+    "days": {}
+  },
+  "quality_review": {
+    "explicit_diet": null,
+    "adjustments": [],
+    "presentation_adjustments": [
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "knowledge_facts",
+        "day": null,
+        "original_point": {
+          "text": "Bak kut teh with rice and you tiao fritters, Hainanese chicken rice, Fried Hokkien mee, and prawn mee/pork rib soup are popular Chinese local dishes in Singapore.",
+          "evidence": [
+            {
+              "passage_id": "P1",
+              "quote": "- Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan ."
+            }
+          ]
+        },
+        "displayed_text": "- Bak kut teh with rice and you tiao fritters - Hainanese chicken rice - Fried Hokkien mee - Prawn mee and pork rib soup Chinese food as eaten in Singapore commonly originates from southern China , particularly Fujian , Guangdong and Hainan ."
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "knowledge_facts",
+        "day": null,
+        "original_point": {
+          "text": "Bak chor mee features noodles with minced pork tossed in a chilli-based sauce with lard, ikan bilis, vegetables, and mushrooms, often with black vinegar.",
+          "evidence": [
+            {
+              "passage_id": "P1",
+              "quote": "Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added."
+            }
+          ]
+        },
+        "displayed_text": "Noodles can also be served not just in soup (湯 tang ), but also \"dry\" (干 gan ), meaning that your noodles will be served tossed with chilli and spices in one bowl, and the soup will come in a separate bowl. - Bak chor mee (肉脞面) is essentially noodles with minced pork, tossed in a chilli-based sauce with lard, ikan bilis (fried anchovies), vegetables and mushrooms. Black vinegar may also be added."
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "knowledge_facts",
+        "day": null,
+        "original_point": {
+          "text": "Laksa (such as Katong laksa or laksa lemak) consists of slippery rice noodles in a rich coconut-based curry broth with cockles or shrimp, commonly found in hawker centres.",
+          "evidence": [
+            {
+              "passage_id": "P2",
+              "quote": "- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat."
+            }
+          ]
+        },
+        "displayed_text": "- Laksa , in particular the Katong laksa or laksa lemak style, is probably the best-known Singaporean dish: slippery rice noodles in a creamy, immensely rich coconut-based curry broth, topped with cockles or shrimp. The common style found in hawker centres is very spicy, although you can ask for less/no chilli to dial down the heat."
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "knowledge_facts",
+        "day": null,
+        "original_point": {
+          "text": "Mee siam features rice flour noodles served in a sweet-sour tamarind, dried shrimp, and fermented bean soup with bean curd cubes and hard-boiled eggs.",
+          "evidence": [
+            {
+              "passage_id": "P2",
+              "quote": "The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs."
+            }
+          ]
+        },
+        "displayed_text": "The Katong style is much less spicy and is generally found only in Katong itself (see the East Coast page ). Despite sharing the same name, the dish bears almost no resemblance to the varieties found in neighbouring Malaysia. - Mee siam is rice flour noodles served in a sweet-sour soup (made from tamarind, dried shrimp and fermented beans), bean curd cubes, and hard boiled eggs."
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "knowledge_facts",
+        "day": null,
+        "original_point": {
+          "text": "Various Indian dishes like dosa, idli with sambar, and north Indian curries can be found at many hawker centres alongside mamak shops.",
+          "evidence": [
+            {
+              "passage_id": "P3",
+              "quote": "Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:"
+            }
+          ]
+        },
+        "displayed_text": "Delicious and authentic Indian food can be had at Little India, including south Indian typical meals such as dosa ( thosai ) crepes, idli lentil-rice cakes and sambar soup, as well as north Indian meals including various curries, naan bread, chapati , tandoori chicken and more. In addition, however, a number of Indian dishes have been \"Singaporeanised\" and adopted by the entire population, including:"
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "suggestions",
+        "day": null,
+        "original_point": {
+          "text": "When visiting hawker centres, remember local etiquette such as 'choping' your table with a packet of tissue paper before ordering.",
+          "evidence": [
+            {
+              "passage_id": "P4",
+              "quote": "Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table."
+            },
+            {
+              "passage_id": "P4",
+              "quote": "First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver."
+            }
+          ]
+        },
+        "displayed_text": "Hawker centres are built for volume and ordering from a popular hawker speaking in rapid-fire Singlish can be confusing. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. First stake out your territory by choping (reserve) a space by parking a friend at the table, or do what the locals do: place a packet of tissue paper on the table. If ordering from a stall not marked \"self-service\", note down the table number so they can deliver."
+      },
+      {
+        "action": "used_verbatim_selected_excerpts",
+        "section": "suggestions",
+        "day": null,
+        "original_point": {
+          "text": "At hawker stalls not marked self-service, note down your table number so the stall can deliver your food.",
+          "evidence": [
+            {
+              "passage_id": "P4",
+              "quote": "If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away."
+            }
+          ]
+        },
+        "displayed_text": "If ordering from a stall not marked \"self-service\", note down the table number so they can deliver. The best places always have queues, so line up, and once asked place your order by stating the dish and portion size you want: \"Fishball noodles, four dollars.\" Expect to get some or all of the following questions: - \"Have here or take away?\" Reply \"have here\" to eat in, or any of \"take away\", \"packet\" or ta pao (打包) to take away."
+      }
+    ],
+    "semantic_review_still_required": true,
+    "method": "Exact selected excerpts supply factual descriptions. Unsuitable points are withheld. Existing flexible main activities may be balanced only in a new unconstrained plan; no new venue is invented. No extra model request."
+  },
+  "previous_turn_count": 0,
+  "conversation_context": {
+    "trip_notes": "",
+    "user_requests_in_order": [],
+    "recent_exchanges": [],
+    "older_assistant_answers_omitted": 0
+  },
+  "usage_metadata": [
+    {
+      "input_tokens": 5817,
+      "output_tokens": 412,
+      "total_tokens": 6229,
+      "input_token_details": {
+        "cache_read": 0
+      }
+    }
+  ],
+  "checks": {
+    "citation_ids_and_quotes_valid": true,
+    "quotes_inserted_from_sources": true,
+    "live_figures_rendered_from_tools": true,
+    "weather_activity_roles_checked": true,
+    "semantic_grounding_requires_review": true
+  }
+}

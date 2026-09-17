@@ -1,0 +1,384 @@
+{
+  "created_at_utc": "2026-09-14T10:56:26.912652+00:00",
+  "transport": "stdio",
+  "server_file": "mcp_server/server.py",
+  "mcp_protocol_tested": true,
+  "llm_routing_tested": false,
+  "package_versions": {
+    "mcp": "1.30.0",
+    "langchain-mcp-adapters": "0.3.2",
+    "langchain-core": "1.6.3"
+  },
+  "checks": [
+    {
+      "name": "weather_via_mcp",
+      "passed": true,
+      "arguments": {
+        "city": "Singapore",
+        "start_date": "2026-09-21",
+        "end_date": "2026-09-23"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"status\": \"ok\",\n  \"provider\": \"Open-Meteo\",\n  \"source_url\": \"https://open-meteo.com/\",\n  \"documentation_url\": \"https://open-meteo.com/en/docs\",\n  \"attribution\": \"Weather data by Open-Meteo (CC BY 4.0); dates selected and WMO codes labelled by this application.\",\n  \"fetched_at_utc\": \"2026-09-14T10:56:29.434314+00:00\",\n  \"city\": \"Singapore\",\n  \"coordinates_requested\": {\n    \"latitude\": 1.3521,\n    \"longitude\": 103.8198\n  },\n  \"timezone\": \"Asia/Singapore\",\n  \"requested_start_date\": \"2026-09-21\",\n  \"requested_end_date\": \"2026-09-23\",\n  \"current\": {\n    \"time\": \"2026-09-14T18:45:00+08:00\",\n    \"interval_seconds\": 900,\n    \"temperature_2m\": 29.2,\n    \"weather_code\": 0,\n    \"precipitation\": 0.0,\n    \"wind_speed_10m\": 7.9,\n    \"condition\": \"Clear sky\",\n    \"data_kind\": \"model_based_current_conditions\"\n  },\n  \"current_units\": {\n    \"temperature_2m\": \"°C\",\n    \"weather_code\": \"wmo code\",\n    \"precipitation\": \"mm\",\n    \"wind_speed_10m\": \"km/h\"\n  },\n  \"forecast\": [\n    {\n      \"date\": \"2026-09-21\",\n      \"weather_code\": 51,\n      \"temperature_2m_max\": 30.9,\n      \"temperature_2m_min\": 25.3,\n      \"precipitation_sum\": 3.0,\n      \"precipitation_probability_max\": 79,\n      \"wind_speed_10m_max\": 11.2,\n      \"condition\": \"Light drizzle\"\n    },\n    {\n      \"date\": \"2026-09-22\",\n      \"weather_code\": 53,\n      \"temperature_2m_max\": 28.6,\n      \"temperature_2m_min\": 25.8,\n      \"precipitation_sum\": 4.8,\n      \"precipitation_probability_max\": 82,\n      \"wind_speed_10m_max\": 9.7,\n      \"condition\": \"Moderate drizzle\"\n    },\n    {\n      \"date\": \"2026-09-23\",\n      \"weather_code\": 55,\n      \"temperature_2m_max\": 29.6,\n      \"temperature_2m_min\": 25.4,\n      \"precipitation_sum\": 7.8,\n      \"precipitation_probability_max\": 68,\n      \"wind_speed_10m_max\": 13.6,\n      \"condition\": \"Dense drizzle\"\n    }\n  ],\n  \"forecast_units\": {\n    \"weather_code\": \"wmo code\",\n    \"temperature_2m_max\": \"°C\",\n    \"temperature_2m_min\": \"°C\",\n    \"precipitation_sum\": \"mm\",\n    \"precipitation_probability_max\": \"%\",\n    \"wind_speed_10m_max\": \"km/h\"\n  },\n  \"missing_fields\": [],\n  \"notes\": [\n    \"Current conditions are weather-model estimates, with their own valid timestamp.\",\n    \"The forecast represents a Singapore location, not separate forecasts for every neighbourhood.\",\n    \"Daily conditions and precipitation probabilities do not specify exactly when rain will occur or mean it will rain all day.\",\n    \"Forecasts can change; null values mean unavailable information.\"\n  ],\n  \"request_url\": \"https://api.open-meteo.com/v1/forecast?latitude=1.3521&longitude=103.8198&timezone=Asia%2FSingapore&current=temperature_2m%2Cweather_code%2Cprecipitation%2Cwind_speed_10m&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cprecipitation_probability_max%2Cwind_speed_10m_max&forecast_days=10&temperature_unit=celsius&wind_speed_unit=kmh&precipitation_unit=mm\",\n  \"provenance\": {\n    \"channel\": \"mcp\",\n    \"server\": \"singapore_travel\",\n    \"tool\": \"get_weather\"\n  }\n}"
+          }
+        ],
+        "structuredContent": {
+          "status": "ok",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/",
+          "documentation_url": "https://open-meteo.com/en/docs",
+          "attribution": "Weather data by Open-Meteo (CC BY 4.0); dates selected and WMO codes labelled by this application.",
+          "fetched_at_utc": "2026-09-14T10:56:29.434314+00:00",
+          "city": "Singapore",
+          "coordinates_requested": {
+            "latitude": 1.3521,
+            "longitude": 103.8198
+          },
+          "timezone": "Asia/Singapore",
+          "requested_start_date": "2026-09-21",
+          "requested_end_date": "2026-09-23",
+          "current": {
+            "time": "2026-09-14T18:45:00+08:00",
+            "interval_seconds": 900,
+            "temperature_2m": 29.2,
+            "weather_code": 0,
+            "precipitation": 0.0,
+            "wind_speed_10m": 7.9,
+            "condition": "Clear sky",
+            "data_kind": "model_based_current_conditions"
+          },
+          "current_units": {
+            "temperature_2m": "°C",
+            "weather_code": "wmo code",
+            "precipitation": "mm",
+            "wind_speed_10m": "km/h"
+          },
+          "forecast": [
+            {
+              "date": "2026-09-21",
+              "weather_code": 51,
+              "temperature_2m_max": 30.9,
+              "temperature_2m_min": 25.3,
+              "precipitation_sum": 3.0,
+              "precipitation_probability_max": 79,
+              "wind_speed_10m_max": 11.2,
+              "condition": "Light drizzle"
+            },
+            {
+              "date": "2026-09-22",
+              "weather_code": 53,
+              "temperature_2m_max": 28.6,
+              "temperature_2m_min": 25.8,
+              "precipitation_sum": 4.8,
+              "precipitation_probability_max": 82,
+              "wind_speed_10m_max": 9.7,
+              "condition": "Moderate drizzle"
+            },
+            {
+              "date": "2026-09-23",
+              "weather_code": 55,
+              "temperature_2m_max": 29.6,
+              "temperature_2m_min": 25.4,
+              "precipitation_sum": 7.8,
+              "precipitation_probability_max": 68,
+              "wind_speed_10m_max": 13.6,
+              "condition": "Dense drizzle"
+            }
+          ],
+          "forecast_units": {
+            "weather_code": "wmo code",
+            "temperature_2m_max": "°C",
+            "temperature_2m_min": "°C",
+            "precipitation_sum": "mm",
+            "precipitation_probability_max": "%",
+            "wind_speed_10m_max": "km/h"
+          },
+          "missing_fields": [],
+          "notes": [
+            "Current conditions are weather-model estimates, with their own valid timestamp.",
+            "The forecast represents a Singapore location, not separate forecasts for every neighbourhood.",
+            "Daily conditions and precipitation probabilities do not specify exactly when rain will occur or mean it will rain all day.",
+            "Forecasts can change; null values mean unavailable information."
+          ],
+          "request_url": "https://api.open-meteo.com/v1/forecast?latitude=1.3521&longitude=103.8198&timezone=Asia%2FSingapore&current=temperature_2m%2Cweather_code%2Cprecipitation%2Cwind_speed_10m&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cprecipitation_probability_max%2Cwind_speed_10m_max&forecast_days=10&temperature_unit=celsius&wind_speed_unit=kmh&precipitation_unit=mm",
+          "provenance": {
+            "channel": "mcp",
+            "server": "singapore_travel",
+            "tool": "get_weather"
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "name": "currency_via_mcp",
+      "passed": true,
+      "arguments": {
+        "amount": 10000,
+        "source_currency": "INR",
+        "target_currency": "SGD"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"status\": \"ok\",\n  \"amount\": \"10000.00\",\n  \"source_currency\": \"INR\",\n  \"target_currency\": \"SGD\",\n  \"exchange_rate\": \"0.01327\",\n  \"rate_definition\": \"1 INR = 0.01327 SGD\",\n  \"converted_amount\": \"132.70\",\n  \"calculation\": \"10000.00 INR x 0.01327 = 132.70 SGD (rounded)\",\n  \"rounding\": {\n    \"method\": \"ROUND_HALF_UP\",\n    \"decimal_places\": 2\n  },\n  \"rate_kind\": \"daily_reference_rate\",\n  \"rate_date\": \"2026-09-11\",\n  \"rate_age_days\": 3,\n  \"calculated_at_utc\": \"2026-09-14T10:56:29.942281+00:00\",\n  \"fetched_at_utc\": \"2026-09-14T10:56:29.942286+00:00\",\n  \"provider\": \"Frankfurter\",\n  \"rate_source\": \"European Central Bank (ECB)\",\n  \"source_url\": \"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html\",\n  \"documentation_url\": \"https://frankfurter.dev/\",\n  \"request_url\": \"https://api.frankfurter.dev/v2/rate/inr/sgd?providers=ecb\",\n  \"external_rate_fetched\": true,\n  \"notes\": [\n    \"This is the latest published daily reference rate returned by the API. The publication date may be an earlier business day.\",\n    \"The conversion is an estimate; provider fees and bank or card exchange-rate margins are not included.\"\n  ],\n  \"provenance\": {\n    \"channel\": \"mcp\",\n    \"server\": \"singapore_travel\",\n    \"tool\": \"convert_currency\"\n  }\n}"
+          }
+        ],
+        "structuredContent": {
+          "status": "ok",
+          "amount": "10000.00",
+          "source_currency": "INR",
+          "target_currency": "SGD",
+          "exchange_rate": "0.01327",
+          "rate_definition": "1 INR = 0.01327 SGD",
+          "converted_amount": "132.70",
+          "calculation": "10000.00 INR x 0.01327 = 132.70 SGD (rounded)",
+          "rounding": {
+            "method": "ROUND_HALF_UP",
+            "decimal_places": 2
+          },
+          "rate_kind": "daily_reference_rate",
+          "rate_date": "2026-09-11",
+          "rate_age_days": 3,
+          "calculated_at_utc": "2026-09-14T10:56:29.942281+00:00",
+          "fetched_at_utc": "2026-09-14T10:56:29.942286+00:00",
+          "provider": "Frankfurter",
+          "rate_source": "European Central Bank (ECB)",
+          "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "documentation_url": "https://frankfurter.dev/",
+          "request_url": "https://api.frankfurter.dev/v2/rate/inr/sgd?providers=ecb",
+          "external_rate_fetched": true,
+          "notes": [
+            "This is the latest published daily reference rate returned by the API. The publication date may be an earlier business day.",
+            "The conversion is an estimate; provider fees and bank or card exchange-rate margins are not included."
+          ],
+          "provenance": {
+            "channel": "mcp",
+            "server": "singapore_travel",
+            "tool": "convert_currency"
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "name": "unsupported_weather_destination",
+      "passed": true,
+      "arguments": {
+        "city": "Tokyo"
+      },
+      "expected_error": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Error executing tool get_weather: unsupported_destination: This travel assistant supports Singapore weather only."
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "name": "negative_currency_amount",
+      "passed": true,
+      "arguments": {
+        "amount": -5,
+        "source_currency": "INR",
+        "target_currency": "SGD"
+      },
+      "expected_error": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Error executing tool convert_currency: 1 validation error for convert_currencyArguments\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=-5, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal"
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "name": "langchain_adapter_call",
+      "passed": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"status\": \"ok\",\n  \"amount\": \"1.00\",\n  \"source_currency\": \"SGD\",\n  \"target_currency\": \"SGD\",\n  \"exchange_rate\": \"1\",\n  \"rate_definition\": \"1 SGD = 1 SGD\",\n  \"converted_amount\": \"1.00\",\n  \"calculation\": \"1.00 SGD x 1 = 1.00 SGD (rounded)\",\n  \"rounding\": {\n    \"method\": \"ROUND_HALF_UP\",\n    \"decimal_places\": 2\n  },\n  \"rate_kind\": \"same_currency_identity\",\n  \"rate_date\": null,\n  \"rate_age_days\": null,\n  \"calculated_at_utc\": \"2026-09-14T10:56:29.982473+00:00\",\n  \"fetched_at_utc\": null,\n  \"provider\": null,\n  \"rate_source\": null,\n  \"source_url\": null,\n  \"documentation_url\": null,\n  \"request_url\": null,\n  \"external_rate_fetched\": false,\n  \"notes\": [\n    \"The source and target currencies are the same. No external exchange rate was requested.\"\n  ],\n  \"provenance\": {\n    \"channel\": \"mcp\",\n    \"server\": \"singapore_travel\",\n    \"tool\": \"convert_currency\"\n  }\n}",
+            "id": "lc_c735cf60-5035-48e7-be57-12f75abc2197"
+          }
+        ],
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "tool",
+        "name": "convert_currency",
+        "tool_call_id": "adapter_check_1",
+        "artifact": {
+          "structured_content": {
+            "status": "ok",
+            "amount": "1.00",
+            "source_currency": "SGD",
+            "target_currency": "SGD",
+            "exchange_rate": "1",
+            "rate_definition": "1 SGD = 1 SGD",
+            "converted_amount": "1.00",
+            "calculation": "1.00 SGD x 1 = 1.00 SGD (rounded)",
+            "rounding": {
+              "method": "ROUND_HALF_UP",
+              "decimal_places": 2
+            },
+            "rate_kind": "same_currency_identity",
+            "rate_date": null,
+            "rate_age_days": null,
+            "calculated_at_utc": "2026-09-14T10:56:29.982473+00:00",
+            "fetched_at_utc": null,
+            "provider": null,
+            "rate_source": null,
+            "source_url": null,
+            "documentation_url": null,
+            "request_url": null,
+            "external_rate_fetched": false,
+            "notes": [
+              "The source and target currencies are the same. No external exchange rate was requested."
+            ],
+            "provenance": {
+              "channel": "mcp",
+              "server": "singapore_travel",
+              "tool": "convert_currency"
+            }
+          }
+        },
+        "status": "success"
+      }
+    }
+  ],
+  "initialization": {
+    "protocolVersion": "2025-11-25",
+    "capabilities": {
+      "experimental": {},
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "serverInfo": {
+      "name": "singapore_travel",
+      "version": "1.30.0"
+    },
+    "instructions": "Travel tools for Singapore weather and currency conversion. Use the knowledge base separately for attractions and other static travel facts. Report weather dates, units and provider; current conditions have their own timestamp. Currency rates are daily reference rates: report the rate date and source. An unavailable tool result must not be replaced with invented data."
+  },
+  "discovered_tools": [
+    {
+      "name": "get_weather",
+      "description": "Fetch Singapore current weather estimates and a daily forecast from Open-Meteo.\n\nDates must be within today through today+15 in Singapore local time. For a\nnext-week trip, supply its actual dates. Preserve source, timestamps and\nunits. Daily precipitation probabilities do not specify exact rain hours.\nThis tool fetches weather data; it does not retrieve attraction suggestions.\n",
+      "inputSchema": {
+        "properties": {
+          "city": {
+            "default": "Singapore",
+            "description": "Singapore or SG; this project covers Singapore only.",
+            "title": "City",
+            "type": "string"
+          },
+          "start_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "First forecast date, YYYY-MM-DD in Singapore local time; defaults to today.",
+            "title": "Start Date"
+          },
+          "end_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Last forecast date, inclusive; defaults to two days after the start date.",
+            "title": "End Date"
+          }
+        },
+        "title": "get_weatherArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "get_weatherDictOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      }
+    },
+    {
+      "name": "convert_currency",
+      "description": "Estimate a currency conversion using the latest ECB reference rate via Frankfurter.\n\nReport the returned publication date, exchange rate and converted amount.\nThis is a daily reference-rate estimate, excluding bank fees and margins.\nMoney and rates are returned as decimal strings. Equal currencies use an\nidentity rate without an external API request. This tool does not move money.\n",
+      "inputSchema": {
+        "properties": {
+          "amount": {
+            "description": "Non-negative amount in the source currency, using its allowed decimal places.",
+            "maximum": 1000000000000,
+            "minimum": 0,
+            "title": "Amount",
+            "type": "number"
+          },
+          "source_currency": {
+            "default": "INR",
+            "description": "Source code: INR, SGD, USD, EUR, GBP, AUD, CAD, CHF, or JPY.",
+            "title": "Source Currency",
+            "type": "string"
+          },
+          "target_currency": {
+            "default": "SGD",
+            "description": "Target code from the same supported currency list.",
+            "title": "Target Currency",
+            "type": "string"
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "title": "convert_currencyArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "convert_currencyDictOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      }
+    }
+  ],
+  "langchain_tool_names": [
+    "convert_currency",
+    "get_weather"
+  ],
+  "all_checks_passed": true,
+  "connection_closed": true
+}

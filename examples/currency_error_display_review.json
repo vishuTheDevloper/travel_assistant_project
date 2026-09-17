@@ -1,0 +1,744 @@
+{
+  "created_at_utc": "2026-09-14T18:18:52.237238+00:00",
+  "assistant_version": "12",
+  "mode": "offline_replay",
+  "source_diagnostic": "assistant_20260914T180712_035232Z.json",
+  "replayed_draft": "submitted_run_answer",
+  "conversation_context": {
+    "trip_notes": "",
+    "user_requests_in_order": [
+      {
+        "turn": 1,
+        "text": "Create a three-day Singapore itinerary for next week and adjust it according to the weather forecast. We are two adults travelling without children. I am vegetarian and prefer public transport."
+      },
+      {
+        "turn": 2,
+        "text": "Extend this trip to four days. Keep my earlier preferences and adjust all four days for the weather."
+      }
+    ],
+    "recent_exchanges": [
+      {
+        "turn": 1,
+        "user": "Create a three-day Singapore itinerary for next week and adjust it according to the weather forecast. We are two adults travelling without children. I am vegetarian and prefer public transport.",
+        "assistant": "### Planning assumptions\n\n- Three-day trip starting on Monday, September 21, 2026, and ending on Wednesday, September 23, 2026.\n- Travellers are two adults without children; children-specific playscapes are excluded.\n\n### Facts from the knowledge base\n\nSelected excerpts from the saved travel sources:\n\n> Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P12]\n\n> All MRTs and public buses are wheelchair accessible and open strollers are allowed. Please approach the train staff or bus captains if you need assistance. [P4]\n\n> Singapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. [P5]\n\n> The Singapore Buddhist Lodge provides free vegetarian meals to the public every day, and people of all faiths are welcome, but donations are certainly appreciated if you can afford to do so. Chinese vegetarian food traditionally does not use dairy products and is thus typically vegan , though be careful as some Chinese vegetarian hawker stalls do serve eggs Chinese vegetarian food traditionally does not use dairy products and is thus typically vegan , though be careful as some Chinese vegetarian hawker stalls do serve eggs [P5]\n\n> The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P12]\n\n\n### Current information from MCP tools\n\n**Weather — [Open-Meteo](<https://open-meteo.com/>)**\nForecast location: Singapore (Asia/Singapore).\n\n| Date | Conditions | Temperature range | Rain probability |\n| --- | --- | --- | --- |\n| 2026-09-21 | Light drizzle | 25.3 to 30.9 °C | 79% |\n| 2026-09-22 | Moderate drizzle | 25.8 to 28.6 °C | 80% |\n| 2026-09-23 | Dense drizzle | 25.4 to 29.6 °C | 75% |\n\nCurrent model estimate at 2026-09-15T01:45:00+08:00: Partly cloudy, 26.3 °C. This snapshot is separate from future forecasts.\n\nRetrieved: 2026-09-14T17:59:00.995835+00:00\nForecasts can change. Daily rain probabilities do not specify rain hours or mean rain all day. Unavailable values are not zero.\n\n### Suggested plan — AI recommendations\n\nDay allocation and activity choices are AI suggestions. Activity descriptions use the exact selected source excerpts, labelled by their source section. Weather adjustments are suggestions based on the tool data shown above.\n\n**Day 1 — 2026-09-21**\n\n- **Main plan:** Snow sports — Being just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors. [P2]\n- **Indoor alternative:** Jewel Changi Airport — Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P8]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n**Day 2 — 2026-09-22**\n\n- **Main plan:** AltitudeX — Defy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island. [P9]\n- **Optional, only if weather allows:** Exploria — Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present. [P7]\n- **Indoor alternative:** Exploria — Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present. [P7]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n**Day 3 — 2026-09-23**\n\n- **Main plan:** Jewel Changi Airport — Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P8]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n- The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P12]\n- Singapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. [P5]\n\n### Knowledge-base sources\n\n- [P2] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Do > Snow sports\n- [P4] [Singapore Travel Guide & Tips | Travel Essentials](<https://www.visitsingapore.com/travel-tips/essential-travel-information/>) — Accessibility Options\n- [P5] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Dietary restrictions\n- [P7] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — Exploria\n- [P8] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — Jewel Changi Airport\n- [P9] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — AltitudeX\n- [P12] [Singapore Travel Guide & Tips | Travel Essentials](<https://www.visitsingapore.com/travel-tips/essential-travel-information/>) — Public Transport\n\nDestination sources are saved reference documents. Current opening hours, ticket availability and prices have not been verified.",
+        "created_at_utc": "2026-09-14T17:59:04.823950+00:00"
+      },
+      {
+        "turn": 2,
+        "user": "Extend this trip to four days. Keep my earlier preferences and adjust all four days for the weather.",
+        "assistant": "### Planning assumptions\n\n- Four-day trip starting on Monday, September 21, 2026, and ending on Thursday, September 24, 2026.\n- Travellers are two adults without children; children-specific playscapes are excluded.\n\n### Facts from the knowledge base\n\nSelected excerpts from the saved travel sources:\n\n> Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n\n> Singapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. [P6]\n\n> Being just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors. [P3]\n\n> Defy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island. [P10]\n\n> Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present. [P8]\n\n> Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P9]\n\n\n### Current information from MCP tools\n\n**Weather — [Open-Meteo](<https://open-meteo.com/>)**\nForecast location: Singapore (Asia/Singapore).\n\n| Date | Conditions | Temperature range | Rain probability |\n| --- | --- | --- | --- |\n| 2026-09-21 | Light drizzle | 25.3 to 30.9 °C | 79% |\n| 2026-09-22 | Moderate drizzle | 25.8 to 28.6 °C | 80% |\n| 2026-09-23 | Dense drizzle | 25.4 to 29.6 °C | 75% |\n| 2026-09-24 | Overcast | 25.3 to 32.5 °C | 79% |\n\nCurrent model estimate at 2026-09-15T02:00:00+08:00: Overcast, 26.2 °C. This snapshot is separate from future forecasts.\n\nRetrieved: 2026-09-14T18:03:25.816443+00:00\nForecasts can change. Daily rain probabilities do not specify rain hours or mean rain all day. Unavailable values are not zero.\n\n### Suggested plan — AI recommendations\n\nDay allocation and activity choices are AI suggestions. Activity descriptions use the exact selected source excerpts, labelled by their source section. Weather adjustments are suggestions based on the tool data shown above.\n\n**Day 1 — 2026-09-21**\n\n- **Main plan:** Snow sports — Being just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors. [P3]\n- **Optional, only if weather allows:** Public Transport — Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n- **Indoor alternative:** Jewel Changi Airport — Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P9]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n**Day 2 — 2026-09-22**\n\n- **Main plan:** AltitudeX — Defy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island. [P10]\n- **Optional, only if weather allows:** Public Transport — Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n- **Indoor alternative:** Exploria — Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present. [P8]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n**Day 3 — 2026-09-23**\n\n- **Main plan:** Exploria — Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present. [P8]\n- **Optional, only if weather allows:** Public Transport — Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n- **Indoor alternative:** Jewel Changi Airport — Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P9]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n**Day 4 — 2026-09-24**\n\n- **Main plan:** Jewel Changi Airport — Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi. [P9]\n- **Optional, only if weather allows:** Public Transport — Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n- **Indoor alternative:** AltitudeX — Defy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island. [P10]\n- **Weather adjustment (suggestion):** The forecast favours a sheltered main plan. Keep any outdoor options conditional on the weather.\n\n- Singapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. [P6]\n- Singapore's public transport system is fast and efficient. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. The MRT (Mass Rapid Transit) and bus systems have an extensive network of routes that will help you zip around the city. Plan your journey with OneMap ( App Store / Play Store ) to find accessible routes, nearby amenities and convenient ways to get around Singapore. [P14]\n\n### Knowledge-base sources\n\n- [P3] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Do > Snow sports\n- [P6] [Singapore – Travel guide at Wikivoyage](<https://en.wikivoyage.org/wiki/Singapore>) — Eat > Dietary restrictions\n- [P8] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — Exploria\n- [P9] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — Jewel Changi Airport\n- [P10] [Things To Do & Must-Visit Places in Singapore](<https://www.visitsingapore.com/things-to-do/top-things-to-do/>) — AltitudeX\n- [P14] [Singapore Travel Guide & Tips | Travel Essentials](<https://www.visitsingapore.com/travel-tips/essential-travel-information/>) — Public Transport\n\nDestination sources are saved reference documents. Current opening hours, ticket availability and prices have not been verified.",
+        "created_at_utc": "2026-09-14T18:03:30.520783+00:00"
+      }
+    ],
+    "older_assistant_answers_omitted": 0
+  },
+  "previous_turn_count": 2,
+  "original_run_at_utc": "2026-09-14T18:07:12.025598+00:00",
+  "source_report_created_at_utc": "2026-09-14T18:07:12.025598+00:00",
+  "question": "Convert 10000 INR to SGD using the latest available reference rate. Include the rate date and source.",
+  "model": "gemini-3.5-flash-lite",
+  "model_calls": 0,
+  "live_tools_called": false,
+  "automatic_retries": false,
+  "original_model_requests_started": null,
+  "source_report_model_calls": 2,
+  "status": "partial",
+  "answer": {
+    "status": "partial",
+    "knowledge_facts": [],
+    "suggestions": [],
+    "itinerary": [],
+    "assumptions": [],
+    "missing_information": [
+      "Currency conversion tool is currently unavailable; unable to convert 10000 INR to SGD."
+    ]
+  },
+  "answer_markdown": "**Offline replay of a saved response. No new Gemini request or live tool call was made.** Weather and other tool values retain the timestamps from the original run.\n\n**Partial answer — some requested details remain unverified.** See 'Information still needed' below.\n\n### Recorded information from MCP tools\n\n- `convert_currency` could not provide the requested information. No substitute data was invented.\n\n### Information still needed\n\n- Currency conversion tool is currently unavailable; unable to convert 10000 INR to SGD.",
+  "submitted_answer": {
+    "status": "partial",
+    "itinerary": [],
+    "suggestions": [],
+    "knowledge_facts": [],
+    "assumptions": [],
+    "missing_information": [
+      "Currency conversion tool is currently unavailable; unable to convert 10000 INR to SGD."
+    ]
+  },
+  "quality_review": {
+    "explicit_diet": "vegetarian",
+    "adjustments": [],
+    "presentation_adjustments": [],
+    "semantic_review_still_required": true,
+    "method": "Exact selected excerpts supply factual descriptions. Unsuitable points are withheld. Existing flexible main activities may be balanced only in a new unconstrained plan; no new venue is invented. No extra model request."
+  },
+  "format_normalization": [],
+  "retrieved_passages": [
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Buy > Money\n\nThe Singaporean currency is the Singapore dollar , denoted by the symbol S$ or $ (ISO code: SGD ). It is divided into 100 cents, denoted ¢ . There are coins of 5¢ (bronze or gold), 10¢ (silver), 20¢ (silver), 50¢ (silver) and $1 (2nd series: gold; 3rd series: silver with gold rim). Notes are in denominations of $2 (purple), $5 (green), $10 (red), $50 (blue), $100 (orange), $1,000 (purple) and $10,000 (gold). The lower three denominations are issued entirely in polymer, the rest of the denominations are issued in paper. The latter two denominations are no longer issued but remain legal tender, very rarely seen and useless outside of luxury boutiques, casinos, and department stores — travellers would be wise to avoid them.  \nUnless it includes other initials (e.g., US$ to stand for U.S. dollars), the \"$\" sign used in the island-nation (and in this guide) refers to Singapore dollars.",
+      "metadata": {
+        "heading_3": "Money",
+        "chunk_id": "singapore_wikivoyage-051-000-433a98b1f856",
+        "chunk_index": 122,
+        "section_index": 51,
+        "piece_index": 0,
+        "chunking_version": "1",
+        "section_path": "Buy > Money",
+        "source_id": "singapore_wikivoyage",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "heading_2": "Buy",
+        "destination": "Singapore",
+        "character_count": 938,
+        "accessed_on": "2026-09-14",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa"
+      },
+      "cosine_distance": 0.40063703060150146,
+      "keyword_similarity": 0.030436530505939235,
+      "rerank_score": -5.944589614868164,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P1"
+    },
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: See > Itineraries\n\n- Three days in Singapore — A three-day sampler set of food, culture and shopping in Singapore, easily divisible into bite-size chunks.  \n- Southern Ridges Walk — An easy scenic 9 km stroll through the hills and jungles of southern Singapore. Highlights of the trail include a 36 m high Henderson Waves pedestrian bridge providing a stunning view of the sea beyond the jungle. Henderson Waves",
+      "metadata": {
+        "accessed_on": "2026-09-14",
+        "chunking_version": "1",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "section_path": "See > Itineraries",
+        "heading_2": "See",
+        "character_count": 443,
+        "heading_3": "Itineraries",
+        "chunk_id": "singapore_wikivoyage-041-000-7c598ead82bb",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_index": 41,
+        "piece_index": 0,
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "chunk_index": 105,
+        "destination": "Singapore",
+        "source_id": "singapore_wikivoyage"
+      },
+      "cosine_distance": 0.27809983491897583,
+      "keyword_similarity": 0.0,
+      "rerank_score": 5.2715606689453125,
+      "candidate_methods": [
+        "semantic"
+      ],
+      "passage_id": "P2"
+    },
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Do > Snow sports\n\nBeing just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors.  \nIce skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang .",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Do",
+        "heading_3": "Snow sports",
+        "section_path": "Do > Snow sports",
+        "section_index": 50,
+        "chunk_index": 121,
+        "piece_index": 0,
+        "chunk_id": "singapore_wikivoyage-050-000-9a4c8f9f66f6",
+        "character_count": 512,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.11964860786631315,
+      "rerank_score": 5.7070631980896,
+      "candidate_methods": [
+        "keyword",
+        "indoor_descriptor"
+      ],
+      "passage_id": "P3"
+    },
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: See\n\n- Nature and wildlife : Popular tourist attractions in the Mandai Wildlife Reserve include the Singapore Zoo , Night Safari , Bird Paradise and River Wonders . The Mandai Boardwalk is a free scenic walk along the Upper Seletar Reservoir in the Mandai Wildlife Reserve. The Botanic Gardens are the only UNESCO World Heritage Site in Singapore. For something closer to the city, visit the futuristic Gardens by the Bay in the Marina district, behind the Marina Bay Sands. Finding \"real\" nature is a little harder, but the Bukit Timah Nature Reserve (in the same district as the zoo) has more plant species than in the whole of North America, and is also home to a thriving population of wild monkeys. Pulau Ubin , an island off the Changi Village in the east, is a flashback to the rural Singapore of yesteryear. Red junglefowl (often called wild chickens) can often be seen in many grassy areas around the city, even in downtown areas",
+      "metadata": {
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_index": 40,
+        "chunk_index": 102,
+        "heading_2": "See",
+        "chunk_id": "singapore_wikivoyage-040-001-a5b142b9fea1",
+        "chunking_version": "1",
+        "source_id": "singapore_wikivoyage",
+        "accessed_on": "2026-09-14",
+        "section_path": "See",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "piece_index": 1,
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "character_count": 970,
+        "local_path": "data/raw/singapore_wikivoyage.html"
+      },
+      "cosine_distance": 0.28310060501098633,
+      "keyword_similarity": 0.03322269203044626,
+      "rerank_score": 4.17347526550293,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P4"
+    },
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Accessibility Options\n\nAll MRTs and public buses are wheelchair accessible and open strollers are allowed. Please approach the train staff or bus captains if you need assistance.",
+      "metadata": {
+        "source_id": "singapore_essential_information",
+        "chunking_version": "1",
+        "character_count": 210,
+        "chunk_index": 18,
+        "heading_2": "Accessibility Options",
+        "piece_index": 0,
+        "source_sha256": "a73d75b42a23973d2c634eb6a1b6b299ef0e2d934e469eac28e8efa78f616319",
+        "section_index": 18,
+        "chunk_id": "singapore_essential_information-018-000-0495cfcc47d0",
+        "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+        "local_path": "data/raw/singapore_essential_information.html",
+        "source": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+        "section_path": "Accessibility Options",
+        "accessed_on": "2026-09-14",
+        "title": "Singapore Travel Guide & Tips | Travel Essentials",
+        "destination": "Singapore"
+      },
+      "cosine_distance": 0.22145605087280273,
+      "keyword_similarity": 0.061934957040429714,
+      "rerank_score": 3.8817336559295654,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P5"
+    },
+    {
+      "rank": 1,
+      "page_content": "Destination: Singapore\nSection: Eat > Dietary restrictions\n\nSingapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. The Singapore Buddhist Lodge provides free vegetarian meals to the public every day, and people of all faiths are welcome, but donations are certainly appreciated if you can afford to do so. Chinese vegetarian food traditionally does not use dairy products and is thus typically vegan , though be careful as some Chinese vegetarian hawker stalls do serve eggs",
+      "metadata": {
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "destination": "Singapore",
+        "chunk_id": "singapore_wikivoyage-071-000-60ee5dd48d37",
+        "character_count": 927,
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "section_path": "Eat > Dietary restrictions",
+        "piece_index": 0,
+        "source_id": "singapore_wikivoyage",
+        "accessed_on": "2026-09-14",
+        "heading_3": "Dietary restrictions",
+        "chunking_version": "1",
+        "heading_2": "Eat",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "section_index": 71,
+        "chunk_index": 189,
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa"
+      },
+      "cosine_distance": 0.1788783073425293,
+      "keyword_similarity": 0.3047560756285766,
+      "rerank_score": 5.989289283752441,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P6"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Curiosity Cove\n\nDiscover Singapore’s largest indoor nature-inspired playscape for kids 12 and under. Through interactive and educational play, children explore how animals live, adapt and thrive in the wild across four immersive zones filled with wonder and discovery.",
+      "metadata": {
+        "chunking_version": "1",
+        "section_path": "Curiosity Cove",
+        "destination": "Singapore",
+        "piece_index": 0,
+        "heading_2": "Curiosity Cove",
+        "character_count": 300,
+        "chunk_id": "singapore_things_to_do-017-000-4d6fadb09db3",
+        "chunk_index": 17,
+        "accessed_on": "2026-09-14",
+        "source_id": "singapore_things_to_do",
+        "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+        "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "local_path": "data/raw/singapore_things_to_do.html",
+        "section_index": 17,
+        "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "title": "Things To Do & Must-Visit Places in Singapore"
+      },
+      "cosine_distance": 0.292508602142334,
+      "keyword_similarity": 0.0689657076715982,
+      "rerank_score": 4.4973297119140625,
+      "candidate_methods": [
+        "semantic",
+        "keyword",
+        "indoor_descriptor"
+      ],
+      "passage_id": "P7"
+    },
+    {
+      "rank": 3,
+      "page_content": "Destination: Singapore\nSection: Exploria\n\nExplore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present.",
+      "metadata": {
+        "piece_index": 0,
+        "chunking_version": "1",
+        "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+        "local_path": "data/raw/singapore_things_to_do.html",
+        "heading_2": "Exploria",
+        "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "title": "Things To Do & Must-Visit Places in Singapore",
+        "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "destination": "Singapore",
+        "source_id": "singapore_things_to_do",
+        "section_index": 23,
+        "chunk_index": 23,
+        "character_count": 292,
+        "section_path": "Exploria",
+        "chunk_id": "singapore_things_to_do-023-000-d6c8b1d39bb5",
+        "accessed_on": "2026-09-14"
+      },
+      "cosine_distance": 0.3143308758735657,
+      "keyword_similarity": 0.11717269235254002,
+      "rerank_score": 4.473274230957031,
+      "candidate_methods": [
+        "semantic",
+        "keyword",
+        "indoor_descriptor"
+      ],
+      "passage_id": "P8"
+    },
+    {
+      "rank": 4,
+      "page_content": "Destination: Singapore\nSection: Jewel Changi Airport\n\nExperience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi.",
+      "metadata": {
+        "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "heading_2": "Jewel Changi Airport",
+        "character_count": 171,
+        "local_path": "data/raw/singapore_things_to_do.html",
+        "title": "Things To Do & Must-Visit Places in Singapore",
+        "chunk_index": 36,
+        "section_path": "Jewel Changi Airport",
+        "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+        "accessed_on": "2026-09-14",
+        "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "chunk_id": "singapore_things_to_do-036-000-0299693e1ce0",
+        "destination": "Singapore",
+        "chunking_version": "1",
+        "section_index": 36,
+        "piece_index": 0,
+        "source_id": "singapore_things_to_do"
+      },
+      "cosine_distance": 0.3335169553756714,
+      "keyword_similarity": 0.13234477695623478,
+      "rerank_score": 3.97064208984375,
+      "candidate_methods": [
+        "semantic",
+        "keyword",
+        "indoor_descriptor"
+      ],
+      "passage_id": "P9"
+    },
+    {
+      "rank": 5,
+      "page_content": "Destination: Singapore\nSection: AltitudeX\n\nDefy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island.",
+      "metadata": {
+        "source_id": "singapore_things_to_do",
+        "title": "Things To Do & Must-Visit Places in Singapore",
+        "source": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+        "local_path": "data/raw/singapore_things_to_do.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "847dca12baea69c4b89e7c3cd28afa87bb853583ae4ee642fecd491ea0e723b9",
+        "heading_2": "AltitudeX",
+        "section_path": "AltitudeX",
+        "section_index": 3,
+        "chunk_index": 3,
+        "piece_index": 0,
+        "chunk_id": "singapore_things_to_do-003-000-093134413995",
+        "character_count": 135,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.0,
+      "rerank_score": -0.4003962278366089,
+      "candidate_methods": [
+        "indoor_descriptor"
+      ],
+      "passage_id": "P10"
+    },
+    {
+      "rank": 6,
+      "page_content": "Destination: Singapore\nSection: Understand > Climate\n\nThe high temperature and humidity, combined with the lack of wind and the fact that temperatures stay high during the night, can take its toll on visitors from colder parts of the world. Bear in mind that spending more than about an hour outdoors can be very exhausting, especially if combined with moderate exercise. Singaporeans themselves shun the heat, and for a good reason. Many live in air-conditioned flats, work in air-conditioned offices, take the air-conditioned metro to air-conditioned shopping malls connected to each other by underground tunnels where they shop, eat, and exercise in air-conditioned fitness clubs, only venturing out early in the morning and at night. Follow their example if you want to avoid discomfort in the searing heat and humidity of Singapore.",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Understand",
+        "heading_3": "Climate",
+        "section_path": "Understand > Climate",
+        "section_index": 8,
+        "chunk_index": 21,
+        "piece_index": 2,
+        "chunk_id": "singapore_wikivoyage-008-002-56087cbcfed3",
+        "character_count": 837,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.0,
+      "rerank_score": -0.9797439575195312,
+      "candidate_methods": [
+        "indoor_descriptor"
+      ],
+      "passage_id": "P11"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Get around > By taxi\n\nTaxi pricing is largely identical across all companies at $4.40-5.00 as a flag down rate (depending on the type of vehicle used), which lasts 1 km before increments of $0.26 per 400 m (for the first 10 km) or $0.26 per 350 m (after the first 10 km). Watch out for surprises though: on weekdays, trips before 9:30AM or after 5pm incur a 25-50% tariff, and on weekdays a 25% tariff is applicable between 10AM and 4PM. Extra fees ($3-8) may be added for trips starting at airports, popular attractions, and ferry terminals. Electronic Road Pricing surcharges or City Area fees may also apply at peak hours, which may add a substantial amount to your taxi fare. All such charges are shown on the bottom right-hard corner of the meter, recorded in the printed receipt and explained in tedious detail in a sticker on the window; if you suspect the cabbie is trying to pull a fast one, call the company and ask for an explanation",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Get around",
+        "heading_3": "By taxi",
+        "section_path": "Get around > By taxi",
+        "section_index": 35,
+        "chunk_index": 89,
+        "piece_index": 1,
+        "chunk_id": "singapore_wikivoyage-035-001-76874aa42f86",
+        "character_count": 976,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.03882070428590342,
+      "rerank_score": -9.72817611694336,
+      "candidate_methods": [
+        "keyword"
+      ],
+      "passage_id": "P12"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Get in > Immigration\n\nAll travellers entering Singapore, including Singapore citizens, are required to complete a SG Arrival Card online no earlier than 3 days before your arrival date. If you have not done this before you get off the aeroplane, you may complete this form using the computers near the immigration desks. Once completed, you will receive an e-mail containing a barcode that you can scan at the immigration counter or you can use a screenshot of the confirmation page.  \nAll visitors to Singapore can use the automated clearance gates, with no pre-enrollment required. Manual counters are still available for families with children under 6. Singapore no longer stamps passports for visitors: you will receive your terms of entry at the email address you provided in the SG Arrival Card.",
+      "metadata": {
+        "source_id": "singapore_wikivoyage",
+        "title": "Singapore – Travel guide at Wikivoyage",
+        "source": "https://en.wikivoyage.org/wiki/Singapore",
+        "url": "https://en.wikivoyage.org/wiki/Singapore",
+        "local_path": "data/raw/singapore_wikivoyage.html",
+        "accessed_on": "2026-09-14",
+        "destination": "Singapore",
+        "source_sha256": "191251da9f4472ec926e25ea6589a7cf6923a8aea879174104bcab5d8e77eaaa",
+        "heading_2": "Get in",
+        "heading_3": "Immigration",
+        "section_path": "Get in > Immigration",
+        "section_index": 15,
+        "chunk_index": 43,
+        "piece_index": 3,
+        "chunk_id": "singapore_wikivoyage-015-003-f129cdef3882",
+        "character_count": 833,
+        "chunking_version": "1"
+      },
+      "cosine_distance": null,
+      "keyword_similarity": 0.08053553711850377,
+      "rerank_score": -8.546880722045898,
+      "candidate_methods": [
+        "keyword"
+      ],
+      "passage_id": "P13"
+    },
+    {
+      "rank": 2,
+      "page_content": "Destination: Singapore\nSection: Singapore Visitor Centre\n\nIf you need assistance or have any queries, drop by any of the Singapore Visitor Centres. You’ll be able to plan your itinerary, get tips on must-see attractions, purchase tickets for sightseeing, book accommodation and even pick up a souvenir (or two).",
+      "metadata": {
+        "chunk_index": 11,
+        "accessed_on": "2026-09-14",
+        "section_index": 11,
+        "chunk_id": "singapore_essential_information-011-000-53a02daabbc9",
+        "destination": "Singapore",
+        "chunking_version": "1",
+        "section_path": "Singapore Visitor Centre",
+        "source": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+        "heading_2": "Singapore Visitor Centre",
+        "source_sha256": "a73d75b42a23973d2c634eb6a1b6b299ef0e2d934e469eac28e8efa78f616319",
+        "source_id": "singapore_essential_information",
+        "piece_index": 0,
+        "local_path": "data/raw/singapore_essential_information.html",
+        "character_count": 311,
+        "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+        "title": "Singapore Travel Guide & Tips | Travel Essentials"
+      },
+      "cosine_distance": 0.2892996072769165,
+      "keyword_similarity": 0.18671674436778737,
+      "rerank_score": 3.1976847648620605,
+      "candidate_methods": [
+        "semantic",
+        "keyword"
+      ],
+      "passage_id": "P14"
+    }
+  ],
+  "source_excerpt_catalog": {
+    "P1-E1": {
+      "passage_id": "P1",
+      "quote": "The Singaporean currency is the Singapore dollar , denoted by the symbol S$ or $ (ISO code: SGD ). It is divided into 100 cents, denoted ¢ ."
+    },
+    "P1-E2": {
+      "passage_id": "P1",
+      "quote": "It is divided into 100 cents, denoted ¢ . There are coins of 5¢ (bronze or gold), 10¢ (silver), 20¢ (silver), 50¢ (silver) and $1 (2nd series: gold; 3rd series: silver with gold rim)."
+    },
+    "P1-E3": {
+      "passage_id": "P1",
+      "quote": "There are coins of 5¢ (bronze or gold), 10¢ (silver), 20¢ (silver), 50¢ (silver) and $1 (2nd series: gold; 3rd series: silver with gold rim). Notes are in denominations of $2 (purple), $5 (green), $10 (red), $50 (blue), $100 (orange), $1,000 (purple) and $10,000 (gold)."
+    },
+    "P1-E4": {
+      "passage_id": "P1",
+      "quote": "Notes are in denominations of $2 (purple), $5 (green), $10 (red), $50 (blue), $100 (orange), $1,000 (purple) and $10,000 (gold). The lower three denominations are issued entirely in polymer, the rest of the denominations are issued in paper."
+    },
+    "P1-E5": {
+      "passage_id": "P1",
+      "quote": "The lower three denominations are issued entirely in polymer, the rest of the denominations are issued in paper. The latter two denominations are no longer issued but remain legal tender, very rarely seen and useless outside of luxury boutiques, casinos, and department stores — travellers would be wise to avoid them."
+    },
+    "P1-E6": {
+      "passage_id": "P1",
+      "quote": "The latter two denominations are no longer issued but remain legal tender, very rarely seen and useless outside of luxury boutiques, casinos, and department stores — travellers would be wise to avoid them. Unless it includes other initials (e.g., US$ to stand for U.S. dollars), the \"$\" sign used in the island-nation (and in this guide) refers to Singapore dollars."
+    },
+    "P1-E7": {
+      "passage_id": "P1",
+      "quote": "Unless it includes other initials (e.g., US$ to stand for U.S. dollars), the \"$\" sign used in the island-nation (and in this guide) refers to Singapore dollars."
+    },
+    "P2-E1": {
+      "passage_id": "P2",
+      "quote": "- Three days in Singapore — A three-day sampler set of food, culture and shopping in Singapore, easily divisible into bite-size chunks. - Southern Ridges Walk — An easy scenic 9 km stroll through the hills and jungles of southern Singapore. Highlights of the trail include a 36 m high Henderson Waves pedestrian bridge providing a stunning view of the sea beyond the jungle."
+    },
+    "P2-E2": {
+      "passage_id": "P2",
+      "quote": "Highlights of the trail include a 36 m high Henderson Waves pedestrian bridge providing a stunning view of the sea beyond the jungle. Henderson Waves"
+    },
+    "P3-E1": {
+      "passage_id": "P3",
+      "quote": "Being just one degree north of the equator, it is obviously not the best place on earth for skiing, but sunny Singapore still has a permanent indoor snow centre. Snow City offers visitors a chance to experience winter."
+    },
+    "P3-E2": {
+      "passage_id": "P3",
+      "quote": "Snow City offers visitors a chance to experience winter. Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors."
+    },
+    "P3-E3": {
+      "passage_id": "P3",
+      "quote": "Visitors can escape from the hot and humid tropical weather to play in snow or even learn to ski and snowboard with certified professional instructors. Ice skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang ."
+    },
+    "P3-E4": {
+      "passage_id": "P3",
+      "quote": "Ice skating is also possible in Singapore, in Kallang Ice World at Leisure Park Kallang ."
+    },
+    "P4-E1": {
+      "passage_id": "P4",
+      "quote": "- Nature and wildlife : Popular tourist attractions in the Mandai Wildlife Reserve include the Singapore Zoo , Night Safari , Bird Paradise and River Wonders . The Mandai Boardwalk is a free scenic walk along the Upper Seletar Reservoir in the Mandai Wildlife Reserve."
+    },
+    "P4-E2": {
+      "passage_id": "P4",
+      "quote": "The Mandai Boardwalk is a free scenic walk along the Upper Seletar Reservoir in the Mandai Wildlife Reserve. The Botanic Gardens are the only UNESCO World Heritage Site in Singapore."
+    },
+    "P4-E3": {
+      "passage_id": "P4",
+      "quote": "The Botanic Gardens are the only UNESCO World Heritage Site in Singapore. For something closer to the city, visit the futuristic Gardens by the Bay in the Marina district, behind the Marina Bay Sands."
+    },
+    "P4-E4": {
+      "passage_id": "P4",
+      "quote": "For something closer to the city, visit the futuristic Gardens by the Bay in the Marina district, behind the Marina Bay Sands. Finding \"real\" nature is a little harder, but the Bukit Timah Nature Reserve (in the same district as the zoo) has more plant species than in the whole of North America, and is also home to a thriving population of wild monkeys."
+    },
+    "P4-E5": {
+      "passage_id": "P4",
+      "quote": "Finding \"real\" nature is a little harder, but the Bukit Timah Nature Reserve (in the same district as the zoo) has more plant species than in the whole of North America, and is also home to a thriving population of wild monkeys. Pulau Ubin , an island off the Changi Village in the east, is a flashback to the rural Singapore of yesteryear."
+    },
+    "P4-E6": {
+      "passage_id": "P4",
+      "quote": "Pulau Ubin , an island off the Changi Village in the east, is a flashback to the rural Singapore of yesteryear. Red junglefowl (often called wild chickens) can often be seen in many grassy areas around the city, even in downtown areas"
+    },
+    "P4-E7": {
+      "passage_id": "P4",
+      "quote": "Red junglefowl (often called wild chickens) can often be seen in many grassy areas around the city, even in downtown areas"
+    },
+    "P5-E1": {
+      "passage_id": "P5",
+      "quote": "All MRTs and public buses are wheelchair accessible and open strollers are allowed. Please approach the train staff or bus captains if you need assistance."
+    },
+    "P5-E2": {
+      "passage_id": "P5",
+      "quote": "Please approach the train staff or bus captains if you need assistance."
+    },
+    "P6-E1": {
+      "passage_id": "P6",
+      "quote": "Singapore is an easy place to eat for almost everybody. Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten."
+    },
+    "P6-E2": {
+      "passage_id": "P6",
+      "quote": "Many Indians and small groups of Chinese Buddhists are vegetarian , so Indian stalls usually have a number of veggie options and some hawker centres will have a Chinese vegetarian stall or two, often serving up amazing meat imitations made from gluten. Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too."
+    },
+    "P6-E3": {
+      "passage_id": "P6",
+      "quote": "Larger Buddhist temples will sometimes have a vegetarian restaurant on site, while others will sell vegetarian food on Buddhist festivals to raise money for charity, and these are a good option too. The Singapore Buddhist Lodge provides free vegetarian meals to the public every day, and people of all faiths are welcome, but donations are certainly appreciated if you can afford to do so."
+    },
+    "P6-E4": {
+      "passage_id": "P6",
+      "quote": "The Singapore Buddhist Lodge provides free vegetarian meals to the public every day, and people of all faiths are welcome, but donations are certainly appreciated if you can afford to do so. Chinese vegetarian food traditionally does not use dairy products and is thus typically vegan , though be careful as some Chinese vegetarian hawker stalls do serve eggs"
+    },
+    "P6-E5": {
+      "passage_id": "P6",
+      "quote": "Chinese vegetarian food traditionally does not use dairy products and is thus typically vegan , though be careful as some Chinese vegetarian hawker stalls do serve eggs"
+    },
+    "P7-E1": {
+      "passage_id": "P7",
+      "quote": "Discover Singapore’s largest indoor nature-inspired playscape for kids 12 and under. Through interactive and educational play, children explore how animals live, adapt and thrive in the wild across four immersive zones filled with wonder and discovery."
+    },
+    "P7-E2": {
+      "passage_id": "P7",
+      "quote": "Through interactive and educational play, children explore how animals live, adapt and thrive in the wild across four immersive zones filled with wonder and discovery."
+    },
+    "P8-E1": {
+      "passage_id": "P8",
+      "quote": "Explore one of Southeast Asia's largest indoor, nature-themed multimedia attractions, where rarely seen realms of the world come to life. Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present."
+    },
+    "P8-E2": {
+      "passage_id": "P8",
+      "quote": "Use your RFID wristband to unlock interactive touchpoints and discover the wonders of nature — past and present."
+    },
+    "P9-E1": {
+      "passage_id": "P9",
+      "quote": "Experience nature's splendor with a stunning indoor waterfall amidst world-class shopping and dining at Jewel Changi."
+    },
+    "P10-E1": {
+      "passage_id": "P10",
+      "quote": "Defy gravity, soar indoors and feel the adrenaline of flight at AltitudeX on Sentosa Island."
+    },
+    "P11-E1": {
+      "passage_id": "P11",
+      "quote": "The high temperature and humidity, combined with the lack of wind and the fact that temperatures stay high during the night, can take its toll on visitors from colder parts of the world. Bear in mind that spending more than about an hour outdoors can be very exhausting, especially if combined with moderate exercise."
+    },
+    "P11-E2": {
+      "passage_id": "P11",
+      "quote": "Bear in mind that spending more than about an hour outdoors can be very exhausting, especially if combined with moderate exercise. Singaporeans themselves shun the heat, and for a good reason."
+    },
+    "P11-E3": {
+      "passage_id": "P11",
+      "quote": "Singaporeans themselves shun the heat, and for a good reason. Many live in air-conditioned flats, work in air-conditioned offices, take the air-conditioned metro to air-conditioned shopping malls connected to each other by underground tunnels where they shop, eat, and exercise in air-conditioned fitness clubs, only venturing out early in the morning and at night."
+    },
+    "P11-E4": {
+      "passage_id": "P11",
+      "quote": "Many live in air-conditioned flats, work in air-conditioned offices, take the air-conditioned metro to air-conditioned shopping malls connected to each other by underground tunnels where they shop, eat, and exercise in air-conditioned fitness clubs, only venturing out early in the morning and at night. Follow their example if you want to avoid discomfort in the searing heat and humidity of Singapore."
+    },
+    "P11-E5": {
+      "passage_id": "P11",
+      "quote": "Follow their example if you want to avoid discomfort in the searing heat and humidity of Singapore."
+    },
+    "P12-E1": {
+      "passage_id": "P12",
+      "quote": "Taxi pricing is largely identical across all companies at $4.40-5.00 as a flag down rate (depending on the type of vehicle used), which lasts 1 km before increments of $0.26 per 400 m (for the first 10 km) or $0.26 per 350 m (after the first 10 km). Watch out for surprises though: on weekdays, trips before 9:30AM or after 5pm incur a 25-50% tariff, and on weekdays a 25% tariff is applicable between 10AM and 4PM."
+    },
+    "P12-E2": {
+      "passage_id": "P12",
+      "quote": "Watch out for surprises though: on weekdays, trips before 9:30AM or after 5pm incur a 25-50% tariff, and on weekdays a 25% tariff is applicable between 10AM and 4PM. Extra fees ($3-8) may be added for trips starting at airports, popular attractions, and ferry terminals."
+    },
+    "P12-E3": {
+      "passage_id": "P12",
+      "quote": "Extra fees ($3-8) may be added for trips starting at airports, popular attractions, and ferry terminals. Electronic Road Pricing surcharges or City Area fees may also apply at peak hours, which may add a substantial amount to your taxi fare."
+    },
+    "P12-E4": {
+      "passage_id": "P12",
+      "quote": "Electronic Road Pricing surcharges or City Area fees may also apply at peak hours, which may add a substantial amount to your taxi fare. All such charges are shown on the bottom right-hard corner of the meter, recorded in the printed receipt and explained in tedious detail in a sticker on the window; if you suspect the cabbie is trying to pull a fast one, call the company and ask for an explanation"
+    },
+    "P12-E5": {
+      "passage_id": "P12",
+      "quote": "All such charges are shown on the bottom right-hard corner of the meter, recorded in the printed receipt and explained in tedious detail in a sticker on the window; if you suspect the cabbie is trying to pull a fast one, call the company and ask for an explanation"
+    },
+    "P13-E1": {
+      "passage_id": "P13",
+      "quote": "All travellers entering Singapore, including Singapore citizens, are required to complete a SG Arrival Card online no earlier than 3 days before your arrival date. If you have not done this before you get off the aeroplane, you may complete this form using the computers near the immigration desks."
+    },
+    "P13-E2": {
+      "passage_id": "P13",
+      "quote": "If you have not done this before you get off the aeroplane, you may complete this form using the computers near the immigration desks. Once completed, you will receive an e-mail containing a barcode that you can scan at the immigration counter or you can use a screenshot of the confirmation page."
+    },
+    "P13-E3": {
+      "passage_id": "P13",
+      "quote": "Once completed, you will receive an e-mail containing a barcode that you can scan at the immigration counter or you can use a screenshot of the confirmation page. All visitors to Singapore can use the automated clearance gates, with no pre-enrollment required."
+    },
+    "P13-E4": {
+      "passage_id": "P13",
+      "quote": "All visitors to Singapore can use the automated clearance gates, with no pre-enrollment required. Manual counters are still available for families with children under 6."
+    },
+    "P13-E5": {
+      "passage_id": "P13",
+      "quote": "Manual counters are still available for families with children under 6. Singapore no longer stamps passports for visitors: you will receive your terms of entry at the email address you provided in the SG Arrival Card."
+    },
+    "P13-E6": {
+      "passage_id": "P13",
+      "quote": "Singapore no longer stamps passports for visitors: you will receive your terms of entry at the email address you provided in the SG Arrival Card."
+    },
+    "P14-E1": {
+      "passage_id": "P14",
+      "quote": "If you need assistance or have any queries, drop by any of the Singapore Visitor Centres. You’ll be able to plan your itinerary, get tips on must-see attractions, purchase tickets for sightseeing, book accommodation and even pick up a souvenir (or two)."
+    },
+    "P14-E2": {
+      "passage_id": "P14",
+      "quote": "You’ll be able to plan your itinerary, get tips on must-see attractions, purchase tickets for sightseeing, book accommodation and even pick up a souvenir (or two)."
+    }
+  },
+  "tool_calls": [
+    {
+      "tool_call_id": "call_7857271",
+      "tool": "convert_currency",
+      "arguments": {
+        "source_currency": "INR",
+        "amount": 10000,
+        "target_currency": "SGD"
+      },
+      "status": "error",
+      "result": null,
+      "error": "Error executing tool convert_currency: provider_http_error: Frankfurter returned HTTP 522. The conversion is unavailable."
+    }
+  ],
+  "calendar": {
+    "singapore_today": "2026-09-15",
+    "next_week_monday": "2026-09-21",
+    "next_week_wednesday": "2026-09-23",
+    "next_week_sunday": "2026-09-27",
+    "last_supported_forecast_date": "2026-09-30",
+    "mcp_available": true,
+    "mcp_connection_problem": null,
+    "knowledge_base_problem": null
+  },
+  "weather_planning_policy": {
+    "origin": "Application planning preference; not an Open-Meteo rule or a guarantee of rain.",
+    "rule": "For sheltered_main_plan dates, use sourced indoor/sheltered MAIN activities. Outdoor, mixed or unknown settings may only be optional_if_weather_allows. If sheltered options lack evidence, return a partial answer and explain the gap.",
+    "days": {}
+  },
+  "checks": {
+    "citation_ids_and_quotes_valid": true,
+    "weather_activity_roles_checked": true,
+    "explicit_food_conflicts_checked": true,
+    "semantic_grounding_requires_review": true
+  },
+  "note": "The plan was filtered locally using the saved source and model output. No new AI answer was generated; this is not proof of a successful live UI interaction. Conversation context is used only when present in the saved report; older reports may contain only the current question."
+}

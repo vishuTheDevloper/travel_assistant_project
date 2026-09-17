@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "embedding_configuration": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "device": "cpu",
+    "dimension": 384,
+    "max_input_tokens": 512,
+    "normalize_embeddings": true,
+    "document_instruction": "",
+    "query_instruction": "Represent this sentence for searching relevant passages: ",
+    "newline_handling": "replace_with_space"
+  },
+  "chunks_sha256": "191311c897c7434ab45caf78250ed0da969b15623b66ebd741dcdd039eae498f",
+  "chunks_checked": 454,
+  "smallest_chunk_tokens": 17,
+  "largest_chunk_tokens": 340,
+  "special_tokens_included": true,
+  "all_chunks_fit_without_truncation": true,
+  "sample_document_dimension": 384,
+  "sample_query_dimension": 384,
+  "sample_vectors_finite_and_normalized": true,
+  "vector_database_built": false,
+  "package_versions": {
+    "torch": "2.14.0+cpu",
+    "sentence-transformers": "5.7.0",
+    "langchain-huggingface": "1.2.2",
+    "transformers": "5.17.0",
+    "langchain-chroma": "1.1.0"
+  }
+}

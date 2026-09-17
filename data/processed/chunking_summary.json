@@ -1,0 +1,20 @@
+{
+  "source_documents": 4,
+  "total_chunks": 454,
+  "chunks_per_source": {
+    "singapore_wikivoyage": 300,
+    "singapore_essential_information": 24,
+    "singapore_4_day_itinerary": 34,
+    "singapore_things_to_do": 96
+  },
+  "maximum_chunk_characters": 1000,
+  "target_overlap_characters": 150,
+  "overlap_scope": "Within long sections only; actual overlap may be smaller.",
+  "context_included_in_size_limit": true,
+  "smallest_chunk_characters": 86,
+  "largest_chunk_characters": 999,
+  "input_documents_sha256": "1db091ad93e0a615d430c2a159e24c5c74e052a377c5ecb7aa115bae24191d41",
+  "chunking_version": "1",
+  "langchain_text_splitters_version": "1.1.2",
+  "embedding_token_limits_checked": false
+}
